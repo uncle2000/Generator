@@ -1,32 +1,53 @@
 package com.uncle2000.generator.i18n
 
-import java.io.BufferedReader
-import java.io.FileInputStream
-import java.io.InputStreamReader
-import java.util.*
+import com.uncle2000.generator.utils.convert
+import java.io.*
 
+enum class Platform { Android, IOS }
 
 const val filePath = "sheep.tsv"
+
+const val int4Ios = """%d"""
+const val string4Ios = """%@"""
+
+const val int4Android = """${'$'}d"""
+const val string4Android = """${'$'}s"""
+const val list4Android = """--------"""
+
 fun main(args: Array<String>) {
-    val gI18n = GenerartorI18n()
-    gI18n.killingSheep(filePath)
+    val gI18n = GeneratorI18n()
+    gI18n.killingChicken(filePath)
     if (gI18n.dataList.isEmpty())
         System.exit(1)
 
     gI18n.dataList.sort()
-    gI18n.createSheep4Android()
 
+    gI18n.cookChicken()
 
+    gI18n.writeFile(gI18n.filePathList, gI18n.dataList, gI18n.listMap)
 
     System.exit(1)
 }
 
-class GenerartorI18n {
+class GeneratorI18n {
     private val separator = "\t"
     val dataList = ArrayList<I18nObj>()
+    val listMap = HashMap<String, I18nList>()
+    val fileNameAndroid = "strings.xml"
+    val fileNameIos = "Localizable.strings"
+    val filePathList = arrayListOf(
+            "strings/values-en",
+            "strings/values",
+            "strings/values-zh-rTW",
+            "strings/values-zh-rCN",
+            "strings/Base.Iproj",
+            "strings/en.Iproj",
+            "strings/zh-Hans.Iproj",
+            "strings/zh-Hant.Iproj"
+    )
 
 
-    fun killingSheep(filePath: String) {
+    fun killingChicken(filePath: String) {
         val errorList = ArrayList<String>()
         //BufferedReader是可以按行读取文件
         val inputStream = FileInputStream(filePath)
@@ -36,8 +57,25 @@ class GenerartorI18n {
             when {
                 it.length <= (4 + 5) -> {//,,,,
                 }
-                it.split(separator).size > 5 -> {
+                it.split(separator).size > 5 || it.split(separator).size < 4 -> {
                     errorList.add(it)
+                }
+                it.contains(list4Android) -> {
+                    val row = it.split(separator)
+                    val name = row[0].replace("-", "")
+                    if (listMap.keys.contains(name)) {
+                        listMap[name]?.enList?.add(row[1])
+                        listMap[name]?.zhHKList?.add(row[2])
+                        listMap[name]?.zhTWList?.add(row[2])
+                        listMap[name]?.zhCNList?.add(row[3])
+                    } else {
+                        val l = I18nList(name)
+                        l.enList.add(row[1])
+                        l.zhHKList.add(row[2])
+                        l.zhTWList.add(row[2])
+                        l.zhCNList.add(row[3])
+                        listMap[name] = l
+                    }
                 }
                 else -> {
                     val row = it.split(separator)
@@ -53,63 +91,95 @@ class GenerartorI18n {
         errorList.forEach {
             println("=================error==============" + it)
         }
-        dataList.forEach {
-            println("===============================" + it)
-        }
+//        dataList.forEach {
+//            println("===============================" + it)
+//        }
+
     }
 
-    fun createSheep4Android() {
-        dataList.forEach {
+    fun writeFile(filePath: ArrayList<String>, dateList: ArrayList<I18nObj>, listMap: HashMap<String, I18nList>? = null) {
+        filePath.forEachIndexed { index, s ->
+            val dir = File(s)
+            dir.mkdirs()
+            val file = File(s + File.separator + if (index < 4) fileNameAndroid else fileNameIos)
+            file.createNewFile()
+            val out = BufferedWriter(FileWriter(file))
+            if (index in 0..3)
+                out.write("<resources>\r\n")
+            else {
+                out.write("/*\r\n")
+                out.write(waringLog.toString())
+                out.write("*/\r\n")
+            }
 
+            dateList.forEach {
+                when (index) {
+                    0 -> out.write("    " + it.getEnRow(Platform.Android) + "\r\n")
+                    1 -> out.write("    " + it.getZhHKRow(Platform.Android) + "\r\n")
+                    2 -> out.write("    " + it.getZhTWRow(Platform.Android) + "\r\n")
+                    3 -> out.write("    " + it.getZhCNRow(Platform.Android) + "\r\n")
+                    4 -> out.write(it.getEnRow(Platform.IOS) + "\r\n")
+                    5 -> out.write(it.getEnRow(Platform.IOS) + "\r\n")
+                    6 -> out.write(it.getZhCNRow(Platform.IOS) + "\r\n")
+                    7 -> out.write(it.getZhHKRow(Platform.IOS) + "\r\n")
+                }
+            }
+            listMap?.keys?.forEach {
+                when (index) {
+                    0 -> out.write("    " + listMap[it]?.getEnRow(Platform.Android))
+                    1 -> out.write("    " + listMap[it]?.getZhHKRow(Platform.Android))
+                    2 -> out.write("    " + listMap[it]?.getZhTWRow(Platform.Android))
+                    3 -> out.write("    " + listMap[it]?.getZhCNRow(Platform.Android))
+                }
+            }
+            if (index in 0..3)
+                out.write("</resources>\r\n")
+
+            out.flush()
+            out.close()
         }
+
     }
-}
 
 
-class I18nObj(
-    val name: String,
-    val enStr: String? = null,
-    val zhHKStr: String? = null,
-    val zhTWStr: String? = null,
-    val zhCNStr: String? = null,
-    val justInAndroid: Boolean = false
-) : Comparable<I18nObj> {
+    val waringLog = StringBuffer()
+    val waringList = java.util.ArrayList<String>()
+    fun cookChicken() {
+        waringLog.setLength(0)
+        waringList.clear()
+        println("==============检查重复=================")
+        val list1 = dataList.convert { it.enStr }
+        val list2 = dataList.convert { it.zhHKStr }
+        val list3 = dataList.convert { it.zhTWStr }
+        val list4 = dataList.convert { it.zhCNStr }
 
-    override fun compareTo(other: I18nObj): Int {
-        val length1 = name.length
-        val length2 = other.name.length
-
-        var limit = Math.min(length1, length2)
-
-        val a = name.toCharArray()
-        val b = other.name.toCharArray()
-
-        for (i in 0 until limit) {
-            val c1 = if (a[i] >= 'a') a[i] else (a[i] + 32)
-            val c2 = if (b[i] >= 'a') b[i] else (b[i] + 32)
-            if (c1 != c2) {
-                return c1 - c2
+        list1.forEach { key ->
+            if (!waringList.contains(key)) {
+                val count = list1.count { it == key }
+                if (count > 1) {
+                    waringList.add(key ?: "")
+                    waringLog.append("英文中： \"${key}\" 出现了 ${count} 次\n")
+                }
             }
         }
-
-        return length1 - length2
+        list2.forEach { key ->
+            if (!waringList.contains(key)) {
+                val count = list2.count { it == key }
+                if (count > 1) {
+                    waringList.add(key ?: "")
+                    waringLog.append("繁体中文中： \"${key}\" 出现了 ${count} 次\n")
+                }
+            }
+        }
+        list4.forEach { key ->
+            if (!waringList.contains(key)) {
+                val count = list4.count { it == key }
+                if (count > 1) {
+                    waringList.add(key ?: "")
+                    waringLog.append("简体体中文中： \"${key}\" 出现了 ${count} 次\n")
+                }
+            }
+        }
+        println("==============检查完毕=================\n")
     }
-
-    override fun equals(other: Any?): Boolean {
-        return other != null
-                && (other is I18nObj)
-                && name == other.name
-                && (enStr == other.enStr || zhHKStr == other.zhHKStr || zhTWStr == other.zhTWStr || zhCNStr == other.zhCNStr)
-    }
-
-    override fun hashCode(): Int {
-        return name.hashCode()
-    }
-
-    override fun toString(): String {
-        return "name:$name"
-    }
-
-    fun getNameUpperCase() = name.toUpperCase()
-    fun getNameLowerCase() = name.toLowerCase()
 }
