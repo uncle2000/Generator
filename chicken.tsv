@@ -1,4 +1,4 @@
-	English	Chinese	SimplifiedChinese	Android 沒有用到的 (Y)
+ 	English	Chinese	SimplifiedChinese	Android 沒有用到的 (Y)
 COMMON_BACK	Back	返回	返回	
 COMMON_OK	OK	確定	确定	
 COMMON_CANCEL	Cancel	取消	取消	
@@ -13,9 +13,9 @@ COMMON_SUCCESS	Success	成功	成功
 COMMON_FAIL	Fail	失敗	失败	
 COMMON_M	Male	男	男	
 COMMON_F	Female	女	女	
-COMMON_YEAR	Year	年	年	
-COMMON_MONTH	Month	月	月	
-COMMON_DAY	Day	日	日	
+COMMON_YEAR	-	年	年	
+COMMON_MONTH	-	月	月	
+COMMON_DAY		日	日	
 COMMON_SKIP	Skip	略過	略过	
 COMMON_CAMERA_PERMISSION	Enable permissions in the application settings	到應用程式設定中開放權限	到系统设置界面中启用权限	
 COMMON_SETTING	Settings	設定	设置	
@@ -31,7 +31,7 @@ COMMON_WEB_ERROR_MSG	Owoh! It looks like you are disconnected.	喔噢！你似�
 COMMON_ADD	Create	新增	添加	
 COMMON_OR	Or	或	或	
 COMMON_RESEND	Resend	重新發送	重新发送	
-COMMON_AREA	Area	地區︰	地区	
+COMMON_AREA	Area	地區	地区	
 COMMON_DATE	Date	日期	日期	
 COMMON_FEMALE	Female	大美女	大美女	
 COMMON_MALE	Male	大帥哥	大帅哥	
@@ -163,17 +163,17 @@ PET_PROFILE_TYPE	Pet's Type	寵物類型	宠物类型	Y
 PET_PROFILE_TITLE	Pet's Profile	寵物檔案	宠物档案	
 PET_PROFILE_EIDT	Edit Profile	編輯檔案	修改档案	
 PET_PROFILE_AGE	Aged	歲	岁	
-PET_PROFILE_WEIGHT	Weight	體重︰	体重︰	
+PET_PROFILE_WEIGHT	Weight	體重	体重	
 PET_PROFILE_CATEGORY	Type	種類	种类	
-PET_PROFILE_VARIETY	Breed	品種︰	品种︰	
+PET_PROFILE_VARIETY	Breed	品種	品种	
 PET_PROFILE_BLANK	Blank profile	主人忘填喔	主人忘填咯	
 PET_PROFILE_TYPE_BY_IMAGE	Your pet is %@，am I correct？	你的寵物是%@，是否正確？	你的宠物是%@，是否正确？	
 PET_PROFILE_TYPE_BY_IMAGE1	Your pet is 	你的寵物是	你的宠物是	
 PET_PROFILE_TYPE_BY_IMAGE2	,am I correct?	，是否正確？	，是否正确？	
 PET_PROFILE_EDIT_ERROR	Name, category, mood cannot be empty	名字,類別,心情不能為空	名字,类别,心情不能为空	
-PET_PROFILE_EDIT_DISINSECTION	Last Deworm Time 	上次杜蟲時間︰	上次除虫时间︰	
-PET_PROFILE_EDIT_VACCINE	Last Injection Time	上次疫苗时间︰	上次疫苗时间︰	
-PET_PROFILE_EDIT_BIRTH_CONTROL	Birth Control : 	絕育︰	节育︰	
+PET_PROFILE_EDIT_DISINSECTION	Last Deworm Time 	上次杜蟲時間	上次除虫时间	
+PET_PROFILE_EDIT_VACCINE	Last Injection Time	上次疫苗时间	上次疫苗时间	
+PET_PROFILE_EDIT_BIRTH_CONTROL	Birth Control	絕育	节育	
 PET_PROFILE_EDIT_SET_TYPE	Choose Breed	點擊設置種類	点击设置种类	
 PET_PROFILE_EDIT_SET_VARIETY	Choose Breed	點擊設置種類	点击设置种类	
 USER_PROFILE_EDIT_MASTER_NAME	Owner's Name	主人名稱	主人名称	
@@ -512,7 +512,7 @@ OWOH_INPUT_REVERT	Reply:	回覆:	回复:
 OWOH_GROUP_ENTERGROUP	Join Group	加入群聊	加入群聊	
 OWOH_GROUP_MUMBER	Join	人正在參與	人正在参与	
 OWOH_GROUP_JOIN_TIP	Join Group?	是否要進入群聊	是否要进入群聊	
-OWOH_GROUP_IMAGE_COUNT		相關圖片共		
+OWOH_GROUP_IMAGE_COUNT	Related Image Total	相關圖片共	相关图片共	
 UNIT_PIC	pics	張	張	
 OWOH_DETAIL_COM_TIP	Comment must have text	評論內容不能為空	评论内容不能为空	
 OWOH_DETAIL_COM_BLANK	no comment	還沒有人評論他的貼文	还没有人评论他的贴子	
@@ -576,6 +576,7 @@ ACHIEVEMENT_PET_CLOTH	Pet outfits	寵物衣服	宠物衣服
 ACHIEVEMENT_COMING	Enjoy playing the fun "missions", the rich "upgrade reward" and get the fancy "prizes"!	這裡有趣味的“娛樂任務”、豐厚的“升級獎勵大賞”、花式的“戰利品獲取”，等你來玩！	这里有趣味的“娱乐任务”、丰厚的“升级奖励大赏”、花式的“战利品获取”，等你來玩！	
 ACHIEVEMENT_VIEW_PRODUCT	View prizes	查看戰利品	查看战利品	
 ACHIEVEMENT_CURRENT_LV	Current LV	當前等級	当前等级	
+ACHIEVEMENT_TYPE_OTHER	's Achievement	的成就	的成就	
 ACHIEVEMENT_TYPE_COMMENT	My Achievement	我的成就	我的成就	
 ACHIEVEMENT_CLOTHES_TYPE_ALL	All	全部	全部	
 ACHIEVEMENT_CLOTHES_TYPE_PERSON	Personal	主人	主人	
@@ -834,12 +835,12 @@ unit_kg	(kg)	(kg)	(kg)
 recent_msg	new message	最新訊息	最近消息	Y
 tv_play	to play	玩玩	玩玩	
 content_back	pack up	收起...	收起...	
-play	play	遊玩	游玩	
+play	Play	遊玩	游玩	
 cosmetology	Cosmetology	美容	美容	
-foster_care	foster	寄養	寄养	
+foster_care	Foster	寄養	寄养	
 vaccine	Vaccinate	注射疫苗	打疫苗	
-train	train	訓練	训练	
-model	modelling	造型	造型	
+train	Train	訓練	训练	
+model	Modelling	造型	造型	
 search_hash_tag	search topic	尋找話題...	搜索话题…	
 user_name_not_null_tip	name must not be empty	用戶名不能為空	用户名不能为空	
 add_success	add success	添加成功	添加成功	
@@ -900,7 +901,7 @@ sticker_create_pack_fail	Create new sticker package failed	未能新增貼圖包
 sticker_create_fail	Create new sticker failed	未能新增貼圖	未能新增贴图	
 other_device_login	The user was logged in on other device, do you want to enable the chat?	此用戶有其他手機登入，需要重開啟用聊天功能嗎？	此用户有其他手机登入，需要重开启用聊天功能吗？	
 				
-send_failed		發佈失敗		
+send_failed	Publishing failed	發佈失敗	發布失敗	
 				
 date_format_yyyymmdd	yyyy-MM-dd	yyyy年MM月dd日	yyyy年MM月dd日	
 date_format_yyyymmddhhmm	yyyy-MM-dd HH:mm	yyyy年MM月dd日 HH:mm	yyyy年MM月dd日 HH:mm	
@@ -912,7 +913,25 @@ ACH_DAILY_MISSION	Daily Mission	每日任務	每日任务
 ACH_NOVICE_MISSION	Novice Mission	新手任務	新手任务	
 ACH_COMPLETE_MISSION	Completed	已完成	已完成	
 TEACHING_PAGE_TITLE	How To Use	新手教學	新手教学	
-COM_NETWORK_DISABLE	Current Network is not work!	当前网络不可用	網絡出現故障	
-COM_NETWORK_WIFI	Network change to Wifi	当前处于 wifi 网络	當前處於 wifi 網絡	
-COM_NETWORK_MOBILE	Network change to Cellular Data	当前使用手机流量	當前處於移動蜂窩網絡	
-COMPLETED_MISSIONS		已完成任务		
+COM_NETWORK_DISABLE	Current Network is not work!	網絡出現故障	当前网络不可用	
+COM_NETWORK_WIFI	Network change to Wifi	當前處於 wifi 網絡	当前处于 wifi 网络	
+COM_NETWORK_MOBILE	Network change to Cellular Data	當前處於移動蜂窩網絡	当前使用手机流量	
+COMPLETED_MISSIONS	Mission completed	已完成任務	已完成任务	
+COMPLETED_EMPTY_TIP	Haven't do any mission yet, let's start!	你還沒做過任務哦\n快去做任務吧	你还没有做过任务哦\n快去做任务吧	
+				
+GUIDE_TITLE_START	Start	開始體驗	开始体验	
+GUIDE_TITLE_FIRST	Pet Cam	寵 物 相 機	宠 物 相 机	
+GUIDE_TITLE_SECOND	Dairy of your pets	寵 物 成 長 日 記	宠 物 成 长 日 记	
+GUIDE_TITLE_THIRD	O!Video	O ! 短 片	O ! 短 片	
+GUIDE_CONTENT_FIRST	Set pet-alike sound to attract their attention	設 置 擬 聲 功 能 捕 捉\n寵 物 神 態	设 置 拟 声 功 能 捕 捉\n宠 物 神 态	
+GUIDE_CONTENT_SECOND	Build an own page for your pets	為 愛 寵 打 造\n獨 有 專 頁	为 爱 宠 打 造\n独 有 专 页	
+GUIDE_CONTENT_THIRD	Let's take a break and enjoy funny video!	搞 笑 寵 物 影 片 為 您\n驅 趕 煩 惱	搞 笑 宠 物 影 片 为 您\n驱 赶 烦 恼	
+SETTING_USEING_WWAN	Use moblie data to play?	是否使用數據播放?	是否使用数据播放?	
+ACHIEVEMENT_NOCOMPLET_MISSIONS	You still have imcompleted mission, let's go!	你還沒有完成的任務哦 快去做任務吧	你还没有已完成的任务哦 快去做任务吧	
+ACHIEVEMENT_COMPLET_MISSIONS	Mission completed	已完成任務	已完成任务	
+CHAT_VIDEO_EXCEEDTIME	Limited video duration 5 mins	視頻不能超過五分鐘	视频不能超过5分钟	
+CHAT_VIDEO_EXCEEDSIZE	Limited video size 30MB	視頻大小超過限制	视频大小超过限制	
+publish_hashtag	# Hashtag	# 話題	# 话题	
+publish_friend	# Friends	# 好友	# 好友	
+setting_phonebind_phone	Phone bound	綁定手機號	绑定手机号	
+remaining_time	count down : 	剩餘時間 : 	剩余时间	

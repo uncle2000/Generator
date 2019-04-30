@@ -4,9 +4,9 @@ import java.util.regex.Pattern
 
 
 abstract class I18n(
-    val name: String,
-    val inAndroid: Boolean = true,
-    val inIos: Boolean = true
+        val name: String,
+        val inAndroid: Boolean = true,
+        val inIos: Boolean = true
 ) : Comparable<I18n>, AnyRow {
     override fun compareTo(other: I18n): Int {
         val length1 = name.length
@@ -67,16 +67,16 @@ abstract class I18n(
                 temp = temp.replace(s, "%$i$string4Android")
             }
         }
-        return temp
+        return temp.replace("\'", "\\\'").replace(".", "\\.")
     }
 }
 
 class I18nList(
-    name: String,
-    val enList: ArrayList<String> = ArrayList<String>(),
-    val zhHKList: ArrayList<String> = ArrayList<String>(),
-    val zhTWList: ArrayList<String> = ArrayList<String>(),
-    val zhCNList: ArrayList<String> = ArrayList<String>()
+        name: String,
+        val enList: ArrayList<String> = ArrayList<String>(),
+        val zhHKList: ArrayList<String> = ArrayList<String>(),
+        val zhTWList: ArrayList<String> = ArrayList<String>(),
+        val zhCNList: ArrayList<String> = ArrayList<String>()
 ) : I18n(name) {
 
     override fun getEnRow(platform: Platform): String {
@@ -84,10 +84,10 @@ class I18nList(
         s.append("<array name=\"${getNameLowerCase()}\">")
         s.append("\r\n")
         enList.forEach {
-            s.append("    <item>$it</item>")
+            s.append("        <item>$it</item>")
             s.append("\r\n")
         }
-        s.append("</array>\r\n")
+        s.append("    </array>\r\n")
         return s.toString()
     }
 
@@ -96,10 +96,10 @@ class I18nList(
         s.append("<array name=\"${getNameLowerCase()}\">")
         s.append("\r\n")
         zhHKList.forEach {
-            s.append("    <item>$it</item>")
+            s.append("        <item>$it</item>")
             s.append("\r\n")
         }
-        s.append("</array>\r\n")
+        s.append("    </array>\r\n")
         return s.toString()
     }
 
@@ -108,10 +108,10 @@ class I18nList(
         s.append("<array name=\"${getNameLowerCase()}\">")
         s.append("\r\n")
         zhTWList.forEach {
-            s.append("    <item>$it</item>")
+            s.append("        <item>$it</item>")
             s.append("\r\n")
         }
-        s.append("</array>\r\n")
+        s.append("    </array>\r\n")
         return s.toString()
     }
 
@@ -120,21 +120,21 @@ class I18nList(
         s.append("<array name=\"${getNameLowerCase()}\">")
         s.append("\r\n")
         zhCNList.forEach {
-            s.append("    <item>$it</item>")
+            s.append("        <item>$it</item>")
             s.append("\r\n")
         }
-        s.append("</array>\r\n")
+        s.append("    </array>\r\n")
         return s.toString()
     }
 
 }
 
 class I18nObj(
-    name: String,
-    val enStr: String? = null,
-    val zhHKStr: String? = null,
-    val zhTWStr: String? = null,
-    val zhCNStr: String? = null
+        name: String,
+        val enStr: String? = null,
+        val zhHKStr: String? = null,
+        val zhTWStr: String? = null,
+        val zhCNStr: String? = null
 ) : I18n(name) {
 
     override fun equals(other: Any?): Boolean {

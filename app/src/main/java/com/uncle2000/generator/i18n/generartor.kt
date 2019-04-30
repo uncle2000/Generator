@@ -5,7 +5,7 @@ import java.io.*
 
 enum class Platform { Android, IOS }
 
-const val filePath = "sheep.tsv"
+const val filePath = "chicken.tsv"
 
 const val int4Ios = """%d"""
 const val string4Ios = """%@"""
@@ -16,15 +16,23 @@ const val list4Android = """--------"""
 
 fun main(args: Array<String>) {
     val gI18n = GeneratorI18n()
+
+    println("==============读入内存=================\n")
     gI18n.killingChicken(filePath)
+    println("==============读入完毕=================\n")
     if (gI18n.dataList.isEmpty())
         System.exit(1)
-
+    println("==============开始排序=================\n")
     gI18n.dataList.sort()
+    println("==============排序完毕=================\n")
 
+    println("==============检查重复=================\n")
     gI18n.cookChicken()
+    println("==============检查完毕=================\n")
 
+    println("==============写入文件=================\n")
     gI18n.writeFile(gI18n.filePathList, gI18n.dataList, gI18n.listMap)
+    println("==============写入完毕=================\n")
 
     System.exit(1)
 }
@@ -79,7 +87,8 @@ class GeneratorI18n {
                 }
                 else -> {
                     val row = it.split(separator)
-                    dataList.add(I18nObj(row[0], row[1], row[2], row[2], row[3]))
+                    if (row[0].isNotBlank() && !row[0].contains(" "))
+                        dataList.add(I18nObj(row[0], row[1], row[2], row[2], row[3]))
                 }
             }
         }
@@ -97,7 +106,11 @@ class GeneratorI18n {
 
     }
 
-    fun writeFile(filePath: ArrayList<String>, dateList: ArrayList<I18nObj>, listMap: HashMap<String, I18nList>? = null) {
+    fun writeFile(
+            filePath: ArrayList<String>,
+            dateList: ArrayList<I18nObj>,
+            listMap: HashMap<String, I18nList>? = null
+    ) {
         filePath.forEachIndexed { index, s ->
             val dir = File(s)
             dir.mkdirs()
@@ -147,7 +160,6 @@ class GeneratorI18n {
     fun cookChicken() {
         waringLog.setLength(0)
         waringList.clear()
-        println("==============检查重复=================")
         val list1 = dataList.convert { it.enStr }
         val list2 = dataList.convert { it.zhHKStr }
         val list3 = dataList.convert { it.zhTWStr }
@@ -180,6 +192,5 @@ class GeneratorI18n {
                 }
             }
         }
-        println("==============检查完毕=================\n")
     }
 }
