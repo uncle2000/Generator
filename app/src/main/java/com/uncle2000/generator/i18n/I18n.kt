@@ -61,13 +61,13 @@ abstract class I18n(
         while (m.find()) {
             val s = m.group()
             i++
-            if (s.contains('d') || s.contains('D')) {
+            if (s.contains("%d") || s.contains("%D")) {
                 temp = temp.replace(s, "%$i$int4Android")
-            } else if (s.contains('@')) {
+            } else if (s.contains("%@")) {
                 temp = temp.replace(s, "%$i$string4Android")
             }
         }
-        return temp.replace("\'", "\\\'").replace(".", "\\.")
+        return temp.replace("\'", "\\\'").replace(".", "\\.").replace("@", "\\@")
     }
 }
 
