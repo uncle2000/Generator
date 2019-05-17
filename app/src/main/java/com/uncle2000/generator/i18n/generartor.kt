@@ -44,14 +44,14 @@ class GeneratorI18n {
     val fileNameAndroid = "strings.xml"
     val fileNameIos = "Localizable.strings"
     val filePathList = arrayListOf(
-            "strings/values-en",
-            "strings/values",
-            "strings/values-zh-rTW",
-            "strings/values-zh-rCN",
+        "../owoh-android/app/src/main/res-common/values-en",
+        "../owoh-android/app/src/main/res-common/values",
+        "../owoh-android/app/src/main/res-common/values-zh-rTW",
+        "../owoh-android/app/src/main/res-common/values-zh-rCN"/*,
             "strings/Base.Iproj",
             "strings/en.Iproj",
             "strings/zh-Hans.Iproj",
-            "strings/zh-Hant.Iproj"
+            "strings/zh-Hant.Iproj"*/
     )
 
 
@@ -87,8 +87,12 @@ class GeneratorI18n {
                 }
                 else -> {
                     val row = it.split(separator)
-                    if (row[0].isNotBlank() && !row[0].contains(" "))
-                        dataList.add(I18nObj(row[0], row[1], row[2], row[2], row[3]))
+                    if (row[0].isNotBlank() && !row[0].contains(" ")) {
+                        val obj = I18nObj(row[0], row[1], row[2], row[2], row[3])
+                        if (!dataList.contains(obj)) {
+                            dataList.add(obj)
+                        }
+                    }
                 }
             }
         }
@@ -107,9 +111,9 @@ class GeneratorI18n {
     }
 
     fun writeFile(
-            filePath: ArrayList<String>,
-            dateList: ArrayList<I18nObj>,
-            listMap: HashMap<String, I18nList>? = null
+        filePath: ArrayList<String>,
+        dateList: ArrayList<I18nObj>,
+        listMap: HashMap<String, I18nList>? = null
     ) {
         filePath.forEachIndexed { index, s ->
             val dir = File(s)
@@ -131,10 +135,10 @@ class GeneratorI18n {
                     1 -> out.write("    " + it.getZhHKRow(Platform.Android) + "\r\n")
                     2 -> out.write("    " + it.getZhTWRow(Platform.Android) + "\r\n")
                     3 -> out.write("    " + it.getZhCNRow(Platform.Android) + "\r\n")
-                    4 -> out.write(it.getEnRow(Platform.IOS) + "\r\n")
-                    5 -> out.write(it.getEnRow(Platform.IOS) + "\r\n")
-                    6 -> out.write(it.getZhCNRow(Platform.IOS) + "\r\n")
-                    7 -> out.write(it.getZhHKRow(Platform.IOS) + "\r\n")
+//                    4 -> out.write(it.getEnRow(Platform.IOS) + "\r\n")
+//                    5 -> out.write(it.getEnRow(Platform.IOS) + "\r\n")
+//                    6 -> out.write(it.getZhCNRow(Platform.IOS) + "\r\n")
+//                    7 -> out.write(it.getZhHKRow(Platform.IOS) + "\r\n")
                 }
             }
             listMap?.keys?.forEach {
