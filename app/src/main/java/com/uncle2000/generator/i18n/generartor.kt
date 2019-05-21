@@ -5,7 +5,10 @@ import java.io.*
 
 enum class Platform { Android, IOS }
 
-const val filePath = "chicken.tsv"
+const val destinationDirL1 = "C:\\Users\\"
+const val destinationDirL2 = "Downloads"
+const val destinationDirL3 = "Desktop"
+const val fileMime = ".tsv"
 
 const val int4Ios = """%d"""
 const val string4Ios = """%@"""
@@ -17,8 +20,12 @@ const val list4Android = """--------"""
 fun main(args: Array<String>) {
     val gI18n = GeneratorI18n()
 
+    println("============寻找目标文件=================\n")
+    gI18n.catchChicken()
+    println("==============寻找完毕=================\n")
+
     println("==============读入内存=================\n")
-    gI18n.killingChicken(filePath)
+    gI18n.killingChicken(gI18n.filePath)
     println("==============读入完毕=================\n")
     if (gI18n.dataList.isEmpty())
         System.exit(1)
@@ -38,6 +45,7 @@ fun main(args: Array<String>) {
 }
 
 class GeneratorI18n {
+    var filePath = ""
     private val separator = "\t"
     val dataList = ArrayList<I18nObj>()
     val listMap = HashMap<String, I18nList>()
@@ -54,6 +62,55 @@ class GeneratorI18n {
             "strings/zh-Hant.Iproj"*/
     )
 
+
+    fun catchChicken() {
+        val dirL1 = File(destinationDirL1)
+        val dirL2 = ArrayList<String>()
+        val dirL3 = ArrayList<String>()
+        if (dirL1.isDirectory) {
+            dirL1.listFiles().forEach { file ->
+                if (file.isDirectory) {
+                    file.listFiles { dir, name ->
+                        if (name == destinationDirL2 || name == destinationDirL3) {
+                            dirL2.add(dir.toString() + File.separator + name)
+                        }
+                        false
+                    }
+                }
+            }
+            if (!dirL2.isEmpty()) {
+                dirL2.forEach { path ->
+                    if (File(path).isDirectory) {
+                        File(path).listFiles().forEach { file ->
+                            if (file.isFile && file.path.endsWith(fileMime)) {
+                                dirL3.add(file.path)
+                            }
+                        }
+                    }
+                }
+            } else {
+                System.err.println("==error [2]==")
+                System.exit(1)
+            }
+
+            when (dirL3.size) {
+                0 -> {
+                    System.err.println("==error [3]==")
+                    System.exit(1)
+                }
+                2 -> {
+                    System.err.println("==error [4]==")
+                    System.exit(1)
+                }
+                else -> {
+                    filePath = dirL3[0]
+                    return
+                }
+            }
+        }
+        System.err.println("==error [1]==")
+        System.exit(1)
+    }
 
     fun killingChicken(filePath: String) {
         val errorList = ArrayList<String>()
