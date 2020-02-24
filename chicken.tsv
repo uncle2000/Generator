@@ -1,44 +1,65 @@
---------------------------filters	Original 	原始	原始
---------------------------filters	Soft	軟化	软化
---------------------------filters	B/W	黑白	黑白
---------------------------filters	Classic	經典	经典
---------------------------filters	Glamorous	華麗	华丽
---------------------------filters	Lomo	復古	复古
---------------------------filters	Elegent	優雅	优雅
---------------------------filters	Movie	電影	电影
---------------------------filters	Memory	回憶	回忆
---------------------------filters	Yogurt	乳酪	优格
---------------------------filters	Year	流年	流年
---------------------------filters	Shine	發光	发光
---------------------------filters	Mosaic	馬賽克	马赛克
----------------------group_tabs	Hot	熱門	热门
----------------------group_tabs	New	最新	最新
----------------------search_list	User	用戶	用户
----------------------search_list	Topic	話題	话题
-----------------------setting_home_list	Account Settings	賬戶設置	账户设置
-----------------------setting_home_list	Message Settings	消息設置	消息设置
-----------------------setting_home_list	System Setup	系統設置	系统设置
-----------------------setting_home_list	Version Information	版本信息	版本设置
-----------------------setting_home_list	Privacy Policy	隱私政策	隐私政策
-----------------------setting_home_list	User Agreement	用戶協議	用户协议
-----------------------setting_home_list	Feedback	意見反饋	意见反馈
+acquisition_of_precisionn_matching	More precise \n matching	獲取精準\n匹配	获取精准\n匹配
+activity_finished	Finished	已結束	已结束
+activity_opened	Activity opened	活動開放	活动开放
+ad	Advertisement	廣告	广告
+add_fail	add failed	添加失敗	添加失败
+add_more	Add more	補充更多	补充更多
+add_pet	Add pet	添加寵物	添加宠物
+add_success	add success	添加成功	添加成功
+add_topic	Add topic	添加話題	添加话题
+adding_pet_photos	Pet photos	寵物照片：	宠物照片：
+age_month	months	個月	个月
+alert_network	Please reconnect to the network	請重新連接到網絡	请重新连接到网络
+alert_remind	This version no longer prompts	此版本不再提示	此版本不再提示
+alert_update_now	Upgrade now	馬上升級	马上升级
+alipay_not_found	Alipay not found, please install.	未檢測到支付寶客戶端，請安裝後重試。	未检测到支付宝客户端，请安装后重试。
+all	All	全部	全部
+already_finish	Already Finished	已結束	已结束
+and	and	和	和
+areacode	AreaCode  |	區號 |	区号  |
+article	Article	文章	文章
+ask_exit_event	Do you want to exit the event?	是否退出當前活動？	是否退出当前活动？
+audit_failed	Audit failed	稽核失敗	审核失败
+audit_failure	Audit failure	審覈失敗	审核失败
+audit_in_progress	Auditing	審覈中	审核中
+auto_play_video	Autoplay videos	自動播放視頻	自动播放视频
+basic_info	Basic Info	基本資訊	基本信息
+bind_email_success	Binding success, please go to the mailbox for authentication!	綁定成功，請前往郵箱進行認證！	绑定成功，请前往邮箱进行认证！
+binding_fail	binding failed	綁定失敗	绑定失败
+binding_success	binding success	綁定成功	绑定成功
+blood_health_certification	Studbook Health certificate \n certification	血統健康\n認證	血统健康\n认证
+camer_all_video	All videos	全部視頻	全部视频
+camera_bg	Background	背景	背景
+camera_cut	cut	裁剪	裁剪
+camera_enter_text	type what you want to add	輸入您想要加入的文字	输入您想要加入的文字
+camera_filter	Filter	濾鏡	滤镜
+camera_picture	Photo	拍照	拍照
+camera_reset	Reset	重置	重置
+camera_resize	Resize	調整大小	调整大小
+camera_save	Save and publish	儲存	保存
 camera_sound1	Meow	貓叫	猫叫
 camera_sound2	OwOh	嗷嗚	嗷呜
 camera_sound3	Bark	狗叫	狗叫
-camera_sound4	Bark	狗叫	狗叫
 camera_sticker	Sticker	貼圖	贴图
 camera_text	Text	文字	文字
 camera_text_editor_border_width	Border width	粗幼度	粗细度
 camera_text_editor_tab1	Colors	顏色	颜色
 camera_text_editor_tab2	Fonts	字型	字型
 camera_text_editor_tab3	Border	邊框	边框
-cancel_item	Cancel	取消	取消
-cancel_like_fail	cancel like post failed	取消點贊失敗	取消点赞失败
-cancel_like_suc	cancel like post success	取消點贊成功	取消点赞成功
+camera_video	Video	拍攝	拍摄
 can_not_rec_vcode	Can't recevied verification code	收不到驗證碼？	收不到验证码？
+cancel_cute	cancel	忍痛拒絶	忍痛拒绝
+cancel_like_fail	Cancel like post failed	取消點贊失敗	取消点赞失败
+cancel_like_suc	Cancel like post success	取消點贊成功	取消点赞成功
+cancel_verify	Cancel verify	取消審覈	取消审核
+cannot_larger	Video cannot be larger than 100M	視頻大小不得超過100M	视频大小不得超过100M
+certificate_of_consanguinity	Studbook	血緣證書	血缘证书
+certificate_of_health	Health certificate	健康證書	健康证书
 change_bio	Changed group bio	更換了群組公告	更换了群公告
-chat_canceltop_item	Unpin	取消\n置頂	取消\n置顶
+change_locarion	Change location	切換位置	切换位置
+chat_canceltop_item	Unpin	取消置頂	取消置顶
 chat_creat_con	Personal Chat	新建聊天	新建聊天
+chat_match	Match	匹配	匹配
 chat_msg_audio	Audio notice	[語音消息]	[语音消息]
 chat_msg_face	Emoji notice	[表情消息]	[表情消息]
 chat_msg_image	Image notice	[圖片消息]	[图片消息]
@@ -47,25 +68,38 @@ chat_msg_video	Video notice	[視頻消息]	[视频消息]
 chat_permission1	You are not authorized	您未授權	您未授权
 chat_permission2	Please open this permission in the permission management category	請在權限管理中開啓	权限, 请在权限管理中开启此权限。
 chat_reply	Quote	引用	引用
-chat_top_item	Pin	置頂	置顶
+chat_top_item	Pin	置頂聊天	置顶聊天
+check_org	View Original Image	查看原圖	查看原图
+check_premission_location	Please turn on location service	請開啟位置服務	请开启位置服务
+choose_the_sex_of_the_matched_pet	Please select pet gender	請選擇我的寵物性別	请选择我的宠物性别
+city_event	City Event	同城活動	同城活动
+city_event_create	Create Event	發起活動	发起活动
+city_event_details	Details of the events	活動詳情	活动详情
+city_event_next	Next	下一步	下一步
+city_event_not_exist_state	Event does not exist	當前活動不存在	当前活动不存在
+city_event_popup_create_event	Click here to publish events	點擊這裏可以發佈活動哦	点击这里可以发布活动哦
+city_event_rel_event	Related events	相關活動	相关活动
+clear_cache_tip	Are you sure to clear the cache?	是否確定清除緩存？	是否确定清除缓存？
+click_avatar_to_see_the_details	Click on the avatar to see the details	點擊頭像查看詳情	点击头像查看详情
+click_for_pet_type	Select pet type	點擊選擇種類	点击选择宠物种类
+comment_fail	Comment Fail	評論失敗	评论失败
 comment_on_fri	Comment on friends	給朋友留言	给朋友留言
-comming_soon	Coming soon	即將推出	即将推出
-commit_fail	commit failed	提交失敗	提交失败
-commit_success	commit success	提交成功	提交成功
-common_area	Area	地區	地区
-common_birthday_title	Birthday	生日	生日
-common_camera_permission	Enable permissions in the application settings	到應用程式設定中開放權限	到系统设置界面中启用权限
+comment_success	Comment Success	評論成功	评论成功
+commit	Commit	提交	提交
+commit_fail	Commit failed	提交失敗	提交失败
+commit_success	Commit success	提交成功	提交成功
+common_birthday_title	Birthday：	生日：	生日：
 common_cancel	Cancel	取消	取消
 common_create	Create	新增	新增
-common_day		日	日
 common_fail	Fail	失敗	失败
 common_female	Female	大美女	大美女
 common_female_small	Girl	小美女	小美女
 common_finish	Done	完成	完成
+common_ignore	Ignore	忽略	忽略
+common_location_permission	Turn on device GPS	請開啟位置信息	请开启位置信息
 common_log_out	Logout	登出	退出
 common_male	Male	大帥哥	大帅哥
 common_male_small	Boy	小帥哥	小帅哥
-common_month	-	月	月
 common_next	Next	下一步	下一步
 common_no	No	否	否
 common_ok	OK	確定	确定
@@ -73,12 +107,11 @@ common_search	Search	搜尋	搜索
 common_setting	Settings	設定	设置
 common_success	Success	成功	成功
 common_today	Today	今日	今天
-common_year	-	年	年
 common_yes	Yes	是	是
 common_yesterday	Yesterday	昨日	昨天
-completed_empty_tip	Haven't do any mission yet, let's start!	你還沒做過任務哦\n快去做任務吧	你还没有做过任务哦\n快去做任务吧
-completed_missions	Mission completed	已完成任務	已完成任务
 compress_failed	Failed to zip	壓縮失敗	压缩失败
+config_email	Config Email	確認電郵	确认邮箱
+confirm_chat	Confirm Chat	確認聊天	确认聊天
 content	Content	內容	内容
 content_hint	Type something	請輸入內容	请输入内容
 content_limit	The text you enter must be between 0 and 500.	您輸入的文本長度必須在0~500之間	您输入的文本长度必须在0~500之间
@@ -86,17 +119,23 @@ content_unchanged	Content unchanged	內容未改變	内容未改变
 copy_email	Email copied	已複制郵件地址：	已复制邮件地址：
 copy_item	Copy	複製	复制
 copy_link	Link copied	已複制網頁鏈接：	已复制网页链接：
-copy_phone	Phone number copied	已複制手機號碼：	已复制手机号码：
-cosmetology	Cosmetology	美容	美容
+copy_phone	Phone number copied	已複製手機號碼：	已复制手机号码：
+couple_information	Matching Info：	求偶信息：	求偶信息：
+cover_error1	Must upload cover	必須上傳封面	必须上传封面
 creat_group_tip1	You have joined the group, we have	你創建了群聊，群聊參與人還有：	你创建了群聊，群聊参与人还有：
 creat_group_tip2	People who joined the group:	群聊參與人還有：	群聊参与人还有：
-crrefreshheaderrefreshingtext	Loading...	正在重新載入數據中...	正在刷新数据中...
+create_event	Create Activity	建立活動	建立活动
+create_new_group_chat_for_this_group	Create new chat for group	為本活動新建群聊	为本活动新建群聊
+create_new_hash_tag	Create your own topic	創建新話題:	创建新话题:
+create_post	Create Post	發佈日誌	发布日志
+current_city_	Current city：	當前城市：	当前城市：
 date_format_yyyymmdd	yyyy-MM-dd	yyyy年MM月dd日	yyyy年MM月dd日
 date_format_yyyymmddhhmm	yyyy-MM-dd HH:mm	yyyy年MM月dd日 HH:mm	yyyy年MM月dd日 HH:mm
-day_before	Day before	天前	天前
+date_is_more_than_today	Please choose a date less than today	請選擇不能大於今天的日期！	请选择不能大于今天的日期
+day_before	d	天前	天前
+day_short	D	日	日
 def	Default	預設	预设
-delete_item	Delete	刪除	删除
-del_comment	Report this post?	確定刪除評論？	您确定要删除这条评论吗？
+del_comment	Report this comment?	確定刪除評論？	您确定要删除这条评论吗？
 del_comment_failed	Failed to delete the comment	評論刪除失敗	评论删除失败
 del_failed	Failed to delete	刪除失敗	删除失败
 del_for_me	Delete for me	為我刪除	为我删除
@@ -104,33 +143,62 @@ del_msg	Delete message?	刪除訊息嗎？	删除消息吗？
 del_post	Delete this post?	確定刪除貼文？	您确定要删除这条贴子吗
 del_post_faled	Failed to delete the post	貼文刪除失敗	贴文删除失败
 del_suc	Delete Successfully	刪除成功	删除成功
-do_what	What to do?	做什麼？	要去干嘛？
-edit_group_head	Group icon can only edited by admin	只有管理員可以編輯群組頭像	只有管理员可以编辑群头像
-edit_group_noti	Group bio can only edited by admin	只有管理員可以編輯群組簡介	只有管理员可以编辑群简介
+delete_item	Delete	刪除	删除
+delete_pet_confirm_tip	Are you sure to delete your pet files?	確認刪除寵物的檔案嗎？	确定删除宠物的档案吗？
+distance_view_new_matches	More ctuies are coming soon...	距離查看新的匹配	距离查看新的匹配
+dont_like_any_topic	No topics that i want to join	沒有想參與的話題？	没有想参与的话题？
+download_and_compress_the_photos_please_wait	Download and compress the photos，please wait !	正在下載並壓縮所需要分享的圖片，請稍等！	正在下载并压缩所需要分享的图片，请稍等!
+edit_group_head	Group icon can only edited by admin	只有管​​理員可以編輯群組頭像	只有管理员可以编辑群头像
+edit_group_noti	Group bio can only edited by admin	只有管​​理員可以編輯群組簡介	只有管理员可以编辑群简介
+edit_group_notice	Group notice can only edited by admin	只有管​​理員可以編輯群組公告	只有管理员可以编辑群公告
+editing	Editing	編輯資料	编辑资料
 empty1	Opps, nothing here	噢...什麼也沒有	额...什么也没有
-empty_comment	No comment on the post yet	成為第一個評論的人	还没有人评论他的贴文
-empty_post	No post	居然沒發過貼文	居然没法过贴文...
+empty_he_send_post	This person didn't post anything	Ta居然沒發過任何帖文	Ta居然没发过任何帖文
+empty_post_comment	Be the first person to comment	快成為第一個評論的人吧	快成为第一个评论的人吧
 empty_search	Oh, couldn't find anything	咦...什麼也找不到	咦...什么也搜不到耶
-empty_tips	No display if the content is empty	沒有内容	没有内容
+empty_send_post	Don't send any post…	居然沒發過帖文…	居然没发过帖文…
+end_event	End Activity	結束活動	结束活动
+end_time	End time	結束時間	结束时间
+end_time_	End time：	結束時間：	结束时间：
+enter_city	Click select area	點擊選擇地區	点击选择地区
+enter_event_group	Choose activity group chat	點擊選擇活動群聊	点击选择活动群聊
+enter_event_name	Please enter the activity name...	請輸入活動名稱...	请输入活动名称...
+enter_event_readme	Please enter attention of activity	請輸入活動需要注意事項（100字以內）	请输入活动需要注意事项（100字以内）
+enter_event_time	Click set time	點擊設置時間	点击设置时间
+enter_group	Enter group	進入群聊	进入群聊
+enter_location	Please enter a detailed address.	請輸入詳細地址	请输入详细地址
+enter_matching	Start Matching	進入匹配	进入匹配
+enter_max_join_user	Set max counts of join user	點擊設置最大參與人數	点击设置最大参与人数
 enter_psd_twice	Please enter your password again	請再次輸入密碼	请再次输入密码
 enter_psw	Please enter your password	請輸入密碼	请输入密码
 erased_suc	Erased	清除成功！	清除成功！
-etc	etc %1$d person	等%1$d人	等%1$d人
+etc	etc %1$s person	等%1$s人	等%1$s人
+event	Event	活動	活动
+event_city	Active areas	活動地區	活动地区
+event_city_	Active areas：	活動地區：	活动地区：
+event_details	Activity Info	活動詳情	活动详情
+event_end	Activity End	活動結束	活动结束
+event_i_create	My Create Activities	我發佈的活動	我发布的活动
+event_i_join	My Join Activities	我參與的活動	我参与的活动
+event_is_open	Open Activity	活動開放	活动开放
+event_notice	Activity notice	活動須知	活动须知
 exit_group_failed	Leave group unsusscefully	退出群組失敗！	退出群组失败！
 exit_group_suc	Leave group susscefully	成功退出群組！	退出群组成功！
 failed_to_creat_group	Failed to create group	群組創建失敗	群组创建失败
 failed_to_get	Failed to get	接收失敗	获取失败
 failed_to_invite_member	Failed to invite member	邀請成員失敗	邀请成员失败
 failed_to_search	Failed to search	搜索失敗	搜索失败
+feedback	Feedback	意見反饋	意见反馈
 file_no_found	File not found	文件不存在	文件不存在
-first_liker	become the first person to like	成爲第一個點贊的人	成为第一个点赞的人
+follow_on_success	Follow on success	關注成功	关注成功
 following	Following	已追蹤	已关注
 forget_pw_title	Find your account	尋找你的帳戶	找回您的帐号
 forget_pw_title_2	Please enter your phone #	請輸入你的電話以搜尋帳戶	请输入您的手机号码以找回帐号
 forward_to_item	forward to:	轉發給︰	转发给︰
-foster_care	Foster	寄養	寄养
+friday	Friday	週五	周五
+get_location	Get location	獲取位置	获取位置
 get_post_failed	Unable to load the post	獲取貼文失敗	获取贴文失败
-get_product_fail	get product failed	獲取戰利品失敗	获取战利品失败
+get_wechat_miniprogram_fail	Failed to get shared wechat miniProgram path, please try again!	獲取分享小程式路徑失敗，請重試！	获取分享小程序路径失败，请重试!
 go_chat	Go chatting	馬上聊天	马上去聊聊
 go_setting	Go setting	去設定	去设置
 group_album_openall	View all	查看所有	查看全部
@@ -139,9 +207,9 @@ group_chat_blank	What are you looking for?~ It's nothing here~	額...什麼也�
 group_chat_clear_message	Clear History	清除消息記錄	清除消息记录
 group_chat_delete_alert	Clear History?	是否確定清除本群所有歷史記錄？	是否确定清除本群所有历史记录？
 group_chat_exit	Leave	退出群聊	退出群聊
+group_chat_exit_alert	Are you sure to exit the current group?	是否確定退出當前群組	是否确定退出当前群组
 group_chat_faceurl	Profile Photo	群頭像	群头像
-group_chat_faceurl_alert	Only Manager Can Change Profile Photo	只有管​​理員可以更改群頭像	只有管理员可以更改群头像
-group_chat_groupname_alert	Only Manager Can Change Group Name	只有管​​理員可以更改群名稱	只有管理员可以更改群名称
+group_chat_groupname_alert	Only Manager Can Change Group Name	只有管​​​​理員可以更改群名稱	只有管理员可以更改群名称
 group_chat_iknow	I know	我知道	我知道了
 group_chat_introduct	Group Information	群簡介	群简介
 group_chat_introduct_placeholder	Enter The Group Introduce	請輸入群簡介	请输入群简介
@@ -155,7 +223,7 @@ group_chat_notifi_placeholder	Enter The Group Notice	請編輯群公告...	请�
 group_chat_owner_edit	Edited	編輯於	编辑于
 group_chat_people	People	人	人
 group_chat_search_message	Search History	搜索消息記錄	搜索消息记录
-group_info_suc	Received group message unsusscefully	接收群組信息失敗	获取群组信息失败
+group_error1	Must be open groupChat	必須關聯群聊	必须选择关联群聊
 group_invite_by_owner	You are invited to join the group	您被邀請進入群組	您被邀请进入群聊
 group_modify_owner	be new manage	成爲新管理員	成为新管理员
 gtip_hello	Hello all	大家好	大家好
@@ -163,322 +231,449 @@ gtip_intro	The group's intro has changed	更換了群簡介	更换了群简介
 gtip_name	The group name has changed	修改群名為	修改群名为
 gtip_quit	Your have been removed from this group	已經退出群聊	已经退出群聊
 gtip_url	The group profile photo has changed	更換了群頭像	更换了群头像
-guide_content_first	Set pet-alike sound to attract their attention	設 置 擬 聲 功 能 捕 捉\n寵 物 神 態	设 置 拟 声 功 能 捕 捉\n宠 物 神 态
-guide_content_second	Build an own page for your pets	為 愛 寵 打 造\n獨 有 專 頁	为 爱 宠 打 造\n独 有 专 页
-guide_content_third	Let's take a break and enjoy funny video!	搞 笑 寵 物 影 片 為 您\n驅 趕 煩 惱	搞 笑 宠 物 影 片 为 您\n驱 赶 烦 恼
-guide_title_first	Pet Cam	寵 物 相 機	宠 物 相 机
-guide_title_second	Dairy of your pets	寵 物 成 長 日 記	宠 物 成 长 日 记
-guide_title_start	Start	開始體驗	开始体验
-guide_title_third	O!Video	O ! 短 片	O ! 短 片
-hide_post	Hide post	隱藏貼圖	隐藏贴图
-hk852	852 HKSAR	"+852 中國香港"	"+852 中国香港"
+guide_content_first	給 你 炫 耀 愛 寵 生 活	給 你 炫 耀 愛 寵 生 活	给 你 炫 耀 爱 宠 生 活
+guide_content_fourth	精 選 優 質 寵 物 用 品 等 你 入 手	精 選 優 質 寵 物 用 品 等 你 入 手	精 选 优 质 宠 物 用 品 等 你 入 手
+guide_content_second	尋 找 志 趣 相 投 的 寵 友	尋 找 志 趣 相 投 的 寵 友	寻 找 志 趣 相 投 的 宠 友
+guide_content_third	養 寵 須 知 一 應 俱 存	養 寵 須 知 一 應 俱 存	养 宠 须 知 一 应 俱 存
+guide_title_first	寵 物 社 區	寵 物 社 區	宠 物 社 区
+guide_title_fourth	喔 噢 商 城	喔 噢 商 城	喔 噢 商 城
+guide_title_second	O  !  交 友	O  !  交 友	O ! 交 友
+guide_title_start	開始體驗	開始體驗	开始体验
+guide_title_third	寵 物 資 訊	寵 物 資 訊	宠 物 资 讯
+hashtag_related_activities	Related activities	的相關活動	的相关活动
+hide_post	Hide post	隱藏此貼	隐藏贴图
+hk852	852 HKSAR	#ERROR!	+852 中国香港
 holdtotalk	Hold to record	按住錄音	按住说话
 home_creatpost_searchtopic	Related topics	相關話題	相关话题
-home_creatpost_searchuser	Related users	相關用戶	相关用户
-home_creatpost_selectrole	Who is posting this?	誰在發佈貼文呢？	请点击选择一个身份发布贴文
 home_message_groupnodata	You haven't join any group yet... \nCheck is there have anything you interest in it..	你竟然沒有加入過圈子\n快去加入幾個感興趣的\n圈子吧	你竟然没有加入过圈子\n快去加入几个感兴趣的\n圈子吧
 home_message_livenodata	Nothing new yet..	你還沒有動態哦	你还没有动态哦
 home_message_notinodata	Nothing new yet...	你還沒有通知哦	你还没有通知哦
-home_message_readall	Read all the news	已讀所有通知	已读所有通知
+home_message_readall	Read all	已讀所有	已读所有
 home_message_remindernodata	You don't have any reminder yet, go to creat one?	你還沒有添加過提醒哦\n快去添加看看吧	你还没有添加过提醒哦\n快去添加看看吧
 home_my_message	My Notification	我的消息	我的消息
-hour	Hour	小時	小时
-hour_before	Hour before	小時前	小时前
+hot_goods	Hot commodity	熱賣商品	热卖商品
+hotcomment	Top Comments	熱門評論	热门评论
+hour_before	h	小時前	小时前
+hour_short	h	時	时
+i_want_join	I want join	我要參與	我要参与
 if_enter_group	Join the group chat?	是否進入聊天室？	是否进入群聊？
 image_not_found	Image not found	找不到圖片	找不到图片
+increase_exposuren_recommendation	Increase popularity \n recommendation	新增曝光\n推薦	增加曝光\n推荐
+indicator	%1$s/%2$s	%1$s/%2$s	%1$s/%2$s
+info	info	信息	信息
+input_add_pet_character_tip	Briefly introduce the character of your family's pets. For example:the family has a small Bomei name called Huanhuan. It is a big warm man/big beauty. I am already 2 years old. I haven't talked about love yet. I want to find the other half of my personality. Looking forward to a blind date!	簡單介紹你家愛寵的性格，例如：家有一隻小博美名叫歡歡，是個大暖男/大美女哦，我已經2歲啦，還沒有拍過拖，想找尋性格乖巧的另一半，期待成功相親！	简单介绍你家爱宠的性格，例如：家有一只小博美名叫欢欢，是个大暖男/大美女哦，我已经2岁啦，还没有谈过恋爱，想找寻性格乖巧的另一半，期待相亲成功！
+input_full_phone_number	please enter	請輸入完整手機號	请输入完整手机号
+input_new_password	please enter	請輸入新密碼	请输入新密码
+input_new_password_again	please enter	請再次輸入新密碼	请再次输入新密码
+input_new_phone_number	please enter	請輸入新手機號	请输入新手机号
+input_phone_number	please enter	請輸入手機號	请输入手机号
+insert_error1	Up to 10 texts can be inserted	最多可插入10條文本	最多可插入10条文本
+insert_error2	Up to 9 pictures can be inserted	最多可插入9張圖片	最多可插入9张图片
+insert_error3	Up to 1 video can be inserted	最多可插入1個視頻	最多可插入1个视频
+insert_error4	When inserting other content, you must ensure that the previous content is not empty	在插入其他內容時，必須保證前面的內容不為空	在插入其他内容时，必须保证前面的内容不为空
+insert_image	Insert image	插入圖片	插入图片
+insert_text	Insert text	插入文字	插入文字
+insert_video	Insert video	插入視頻	插入视频
+interested_user	Users you might be interested in	你可能感興趣的用戶	你可能感兴趣的用户
 invite	Invite	邀請	邀请
-keep_alive_tips_default	實時接受消息提醒，建議前往您手機的權限設置界面中打開自啓動和關聯啓動，否則應用關閉後是無法收到消息的	實時接受消息提醒，建議前往您手機的權限設置界面中打開自啓動和關聯啓動，否則應用關閉後是無法收到消息的	实时接收消息提醒，建议前往您手机的权限设置界面中打开自启动和关联启动，否则应用关闭后是无法收到消息的
-keep_alive_tips_huawei	實時接受消息提醒，建議前往【手機管家-應用啓動管理】中開啓喔噢的自啓動和關聯啓動	實時接受消息提醒，建議前往【手機管家-應用啓動管理】中開啓喔噢的自啓動和關聯啓動	实时接收消息提醒，建议前往【手机管家-应用启动管理】中开启喔噢的自启动和关联启动
-keep_alive_tips_letv	實時接受消息提醒，建議前往【管家-更多-自啓動管理】中開啓喔噢的自啓動和關聯啓動	實時接受消息提醒，建議前往【管家-更多-自啓動管理】中開啓喔噢的自啓動和關聯啓動	实时接收消息提醒，建议前往【管家-更多-自启动管理】中开启喔噢的自启动和关联启动
-keep_alive_tips_samsung	實時接受消息提醒，建議前往【智能管理器-自動運行應用程序】中開啓喔噢的自啓動和關聯啓動	實時接受消息提醒，建議前往【智能管理器-自動運行應用程序】中開啓喔噢的自啓動和關聯啓動	实时接收消息提醒，建议前往【智能管理器-自动运行应用程序】中开启喔噢的自启动和关联启动
-keep_alive_tips_vivo	實時接受消息提醒，建議前往【i管家-軟件管理-自啓動管理】中開啓喔噢的自啓動和關聯啓動，或將喔噢添加到加速白名單中	實時接受消息提醒，建議前往【i管家-軟件管理-自啓動管理】中開啓喔噢的自啓動和關聯啓動，或將喔噢添加到加速白名單中	实时接收消息提醒，建议前往【i管家-软件管理-自启动管理】中开启喔噢的自启动和关联启动，或将喔噢添加到加速白名单中
+involved_event	Involved Event	已參加的活動	已参加活动
+join_group	Join group	加入群聊	加入群聊
+join_hash_tag	Join Topic	參與話題	参与话题
+joined	Joined	已參加	已参加
+keep_alive_tips_default	Please turn on your notification for receive messages.	實時接受消息提醒，建議前往您手機的權限設置界面中打開自啓動和關聯啓動，否則應用關閉後是無法收到消息的	实时接收消息提醒，建议前往您手机的权限设置界面中打开自启动和关联启动，否则应用关闭后是无法收到消息的
+keep_alive_tips_huawei	Please turn on your notification for receive messages.	實時接受消息提醒，建議前往【手機管家-應用啓動管理】中開啓喔噢的自啓動和關聯啓動	实时接收消息提醒，建议前往【手机管家-应用启动管理】中开启喔噢的自启动和关联启动
+keep_alive_tips_letv	Please turn on your notification for receive messages.	實時接受消息提醒，建議前往【管家-更多-自啓動管理】中開啓喔噢的自啓動和關聯啓動	实时接收消息提醒，建议前往【管家-更多-自启动管理】中开启喔噢的自启动和关联启动
+keep_alive_tips_samsung	Please turn on your notification for receive messages.	實時接受消息提醒，建議前往【智能管理器-自動運行應用程序】中開啓喔噢的自啓動和關聯啓動	实时接收消息提醒，建议前往【智能管理器-自动运行应用程序】中开启喔噢的自启动和关联启动
+keep_alive_tips_vivo	Please turn on your notification for receive messages.	實時接受消息提醒，建議前往【i管家-軟件管理-自啓動管理】中開啓喔噢的自啓動和關聯啓動，或將喔噢添加到加速白名單中	实时接收消息提醒，建议前往【i管家-软件管理-自启动管理】中开启喔噢的自启动和关联启动，或将喔噢添加到加速白名单中
 keyword_not_found	Keyword not found	找不到關鍵字	找不到关键字
-lang	en	hk	cn
+large_pic	Large pic	長圖	长图
+last_insecticidal_time	Last Deworm Time：	上次驅蟲時間：	上次驱虫时间：
+last_vaccination_time	Last Injection Time：	上次疫苗時間：	上次疫苗时间：
+like_comment_num	%1$s likes·%2$s comments	%1$s人讚好·%2$s條留言	%1$s人点赞·%2$s条评论
+like_comment_view_num	%1$s likes·%2$s comments·%3$s views	%1$s人讚好·%2$s條留言·%3$s次瀏覽	%1$s人点赞·%2$s条评论·%3$s次浏览
 like_people	People who liked	讚好的人	赞好的人
-like_post	Like post	對你的貼文讚好	对你的帖子点赞
-loading	Loading...	加載中	加载中
+limit_people_	People counts limitation	人數限制：	人数限制：
+link_group_	Relevant topics	關聯群聊	关联群聊
+link_topic	Relevant topics	關聯話題	关联话题
+load_video_under_wifi	Load video only under wifi	僅在WIFI下加載視頻	仅在WIFI下加载视频
+loading	Loading...	加載中...	加载中...
 loading_failed	Loading failed...	好尷尬...加載失敗啦...	好尴尬...加载失败啦...
+location_changed	Your city is %1$s do you want to change?	檢測到您的地址更改為%1$s，是否切換？	检测到您的地址更改为%1$s，是否切换？
+location_create	Create a new location	創建新的位置	创建新的位置
+location_create_fail	Can't create new location when you are without GPS Permission	沒有GPS權限時無法創建新位置	没有GPS权限时无法创建新位置
+location_error1	Get location failed,if enabled permission Location,please try open your GPS	獲取位置失敗，如果已經打開了位置權限，請嘗試打開GPS	获取位置失败，如果已经打开了位置权限，请尝试打开GPS
+location_hide	Do not display location	不顯示位置	不显示位置
+location_not_found	Didn't find your location?	沒找到你的位置?	没找到你的位置?
+log_out_failed	Failed to log out	退出失敗	退出失败
 logged_out	Logged out	成功登出	成功登出
 login_acct	Email	電郵	邮箱
 login_acct_phone	Phone	電話	电话
-login_button	Login	登入	登录
+login_button	Login	登錄	登录
 login_by_email	Login by E-mail	電郵登錄	邮箱登录
 login_by_phone_number	Login by mobile #	電話號碼登錄	手机号码登录
 login_error_invalid_pw	Password must be at least 8 digits	密碼最少 8 個位	密码最少 8 位
 login_error_wrong_email_pw	E-mail or Password Incorrect	郵箱或密碼錯誤	邮箱或密码错误
 login_error_wrong_phone_pw	Phone Number or Password Incorrect	電話號碼或密碼錯誤	手机号码或密码错误
 login_failed	Failed to log in	登錄失敗	登录失败
-login_forget_pw_1	Forgot password	忘記密碼	找回密码
+login_forget_pw_1	Forget	忘記密碼	忘记密码
 login_input_pw	Password	密碼	密码
-login_method_other	Other login	其他方式登入	其他方式登录
-login_register_1	No Owoh account yet?	未有 Owoh 帳戶？	未注册Owoh 帐号？
+login_method_other	Other login	其他方式登錄	其他方式登录
+login_register_1	 	未有 Owoh 帳戶？	未注册Owoh 帐号？
 login_register_2	Register now	立即註冊	马上注册
-login_success_welcome_1	Welcome back to	歡迎回到OwOh	欢迎回到OwOh
+login_success_welcome_1	Welcome back to	歡迎來到OwOh	欢迎来到OwOh
 login_success_welcome_2	Owoh world!	寵物世界！	宠物世界！
-log_out_failed	Failed to log out	退出失敗	退出失败
+mail_friend_count	%1$d friends	%1$d比特好友	%1$d位好友
+mail_list_friends	Mail list friends	通訊錄好友	通讯录好友
 make_sticker	Create Sticker	製作貼圖	制作贴图
+match_sure	Confirm	確認	确认
+matched_price	Price：	價格：	价格：
+matching_chat_empty	No chat right now. \nTry to start a coversation first, buddy	目前還沒有人聊過天\n找感興趣的人聊聊吧	目前还没有人聊过天\n找感兴趣的人聊聊吧
+matching_create_chat	Start Chat	快去撩牠	快去撩Ta
+matching_create_chat_with_comment2	Alreay said hi	已幫你打招呼	已幫你打招呼
+matching_filter_blood_cert	Studbook	血緣證書	血缘证书
+matching_filter_deworming	Deworming	是否驅蟲	是否驱虫
+matching_filter_health_cert	Health	健康證書	健康证书
+matching_filter_vaccine	Vaccination	接種疫苗	接种疫苗
+matching_im_delete	Are you sure you want to delete this conversation?	確定刪除和該寵物的聊天記錄	确定删除和该宠物的聊天记录
+matching_info	Matching Info	配對資訊	配对信息
+matching_list_empty	No new friends	暫無新朋友	暂无新朋友
+matching_message	Messages	消息	消息
+matching_message_empty	No new message	暫無新消息	暂无新消息
+matching_new	New friend	新的朋友	新的朋友
+matching_off	Matching/Off	配對/關	配对/关
+matching_on	Matching/On	配對/開	配对/开
+matching_search_distance	Distance to current location	距離當前位置	距离当前位置
+matching_search_type_city	City	城市	城市
+matching_search_type_distance	Distance	距離	距离
+matching_share_now	Share now	立即分享	立即分享
 messagetooshort	Message too short	錄音時間太短	说话时间太短
-message_new_message	New message	最新消息	最新消息
-min	Mintues	分鐘	分钟
-min_before	Mintues before	分鐘前	分钟前
-model	Modelling	造型	造型
+min_before	min	分鐘前	分钟前
+minute_short	m	分	分
 modifi_failed	Revise failure	修改失敗	修改失败
 modifi_suc	Revised	修改成功	修改成功
-months_before	Months before	月前	月前
+monday	Monday	週一	周一
+month_short	M	月	月
+months_before	mon	月前	月前
 more_camera_item	Camera	相機	相机
 more_image_item	Image	圖片	图片
+more_than_once	More than once	一次以上	一次以上
 more_video_item	Video	影片	视频
 multi_item	Select...	多選	多选
-my_profile	My profile	我的檔案	我的档案
-name	Name	名稱	名称
-net_error2	Network disconnected, try again later	網絡異常，請稍後再試	网络异常，请稍后再试
+must_enter	* Must fill in	* 必須填寫	* 必须填写
+my_likes	My likes	我的點贊	我的点赞
+my_pets	My Pets	我的寵物	我的宠物
+my_posts	My posts	我的日誌	我的日志
+name	Name：	名稱：	名称：
+nearby	Nearby	附近	附近
+nearby_user	Nearby Friends	附近的寵友	附近的宠友
 net_error3	No network connection, please turn on the network and try again	無網絡連接，請開啟網絡後重試	无网络连接，请开启网络后重试
 new_chat	New Group Chat	新建群組	新建群聊
+new_phone_number	New Phone Number	新手機號	新手机号
 next	<![CDATA[>]]>	<![CDATA[>]]>	<![CDATA[>]]>
-notif	Noticefication	提示	提示
-not_bind	Unbound	未綁定	未绑定
+next_select_count	Next	下一步(%1$d)	下一步(%1$d)
+no_event_this_city	The area have no activity	该地區暫無活動	该地区暂无活动
+no_hash_tag_u_want	No suggested topic found?	沒有想參與的話題？	没有想参与的话题？
+no_limit_people	Unlimited	不限人數	不限人数
+no_limit_time	Unlimited	不限時間	不限时间
+no_need_to_pass	(Unneccessary)	（非必傳）	(非必传)
 no_net	No data	沒有網絡	没有网络
+no_pet_add_pet	Please add pets first	沒有寵物請先添加寵物	没有宠物请先添加宠物
+not_bind	Unbound	未綁定	未绑定
+notif	Noticefication	提示	提示
+official	Official	官方	官方
+old_phone_number	Old Phone Number	舊手機號	旧手机号
+once	Once	一次	一次
+one_key_concern	One key concern	一鍵關注	一键关注
 one_month	1 month	1個月	1个月
 only_image	Only accept image files	只接受圖片檔案	只接受图片档案
 open_failed	Failed to open	展開失敗	展开失败
-other_device_login	The user was logged in on other device, do you want to enable the chat?	此用戶有其他手機登入，需要重開啟用聊天功能嗎？	此用户有其他手机登入，需要重开启用聊天功能吗？
+open_matching	Start Matching	開啟配對	开启配对
+other	Other	其他	其他
+other_event	Other Event	其他活動	其他活动
+other_likes	‘s likes	的點贊	的点赞
+other_pets	Ta's Pets	Ta的寵物	Ta的宠物
+other_posts	s posts	的日誌	的日志
 owoh	OwOh	喔噢	喔噢
+owoh_detail_showmore	Show More	展開查看更多	展开查看更多
+owoh_group_entergroup	Join Group	加入群聊	加入群聊
+owoh_group_image_count	Related Image Total	相關圖片共	相关图片共
+owoh_group_mumber	Join	人正在參與	人正在参与
+owoh_home_to_login	Login Now	馬上登錄	马上登录
+owoh_input_revert	Reply:	回覆:	回复:
+owoh_like_followed	Followed	互相關注	互相关注
+owoh_login_remind_2	Hey you still haven't logged in yet	朋友, 你還沒有登錄呢	朋友, 你还没有登录呢
+owoh_remider_nosel	None	無	无
+owoh_samecity_avtivity_end	Event already end	活動已經結束	活动已经结束
+owoh_search_circle	Hashtag	話題	话题
+owoh_search_result_count	All %	共%項	共%项
+owoh_search_user	User	用戶	用户
 owohchat_group	Group Chat	發起群聊	发起群聊
 owohchat_group_manager_info	Group Info	群組資訊	群组信息
 owohchat_group_member_add_title	Add Member	新增群成員	新增群成员
 owohchat_group_member_del_title	Delete Member	刪除群成員	删除群成员
 owohhelper_item	OWOH Helper	OWOH 小幫手	OwOh 小帮手
-owoh_detail_mancount	others	個人	个人
-owoh_detail_showmore	Show More	展開查看更多	展开查看更多
-owoh_group_entergroup	Join Group	加入群聊	加入群聊
-owoh_group_image_count	Related Image Total	相關圖片共	相关图片共
-owoh_group_mumber	Join	人正在參與	人正在参与
-owoh_home_follow	Really? Interest in no one?	你居然還沒有對任何人感興趣	你居然还沒有对任何人感兴趣
-owoh_home_tiplogin	Hey Mate! \n You haven't logged in yet	朋友\n你還沒登錄呢	朋友\n你还沒有登录呢
-owoh_home_to_follow	Follow	去看看	去看看
-owoh_home_to_login	Login	馬上登陸	马上登录
-owoh_input_revert	Reply:	回覆:	回复:
-owoh_like_followed	Followed	互相關注	互相关注
-owoh_like_person	Likers	讚好的人	赞过的人
-owoh_login_remind_2	Hey you still haven't logged in yet	朋友 你還沒有登錄呢	朋友 你还没有登录呢
-owoh_remider_allday	all-Day	全天	全天
-owoh_remider_cre_fifth	15 min	15分鐘	15分钟
-owoh_remider_cre_five	5 min	5分鐘	5分钟
-owoh_remider_cre_none	No pre	不提前	不提前
-owoh_remider_cre_oneh	1 hour	1小時	1小时
-owoh_remider_cre_ten	10 min	10分鐘	10分钟
-owoh_remider_cre_thrth	30 min	30分鐘	30分钟
-owoh_remider_cre_twoh	2 hour	2小時	2小时
-owoh_remider_end	end	結束	结束
-owoh_remider_friday	Friday	星期五	星期五
-owoh_remider_info_title	Reminder Info	預約提醒詳情	预约提醒详情
-owoh_remider_label	label	標籤	标签
-owoh_remider_loc	location	地點	地点
-owoh_remider_monday	Monday	星期一	星期一
-owoh_remider_nosel	None	無	无
-owoh_remider_pre	pre	提前	提前
-owoh_remider_pre_title	Pre-Notice	提前提醒	提前提醒
-owoh_remider_satuday	Satausday	星期六	星期六
-owoh_remider_start	start	開始	开始
-owoh_remider_sunday	Sunday	星期天	星期天
-owoh_remider_thurday	Thursday	星期四	星期四
-owoh_remider_title	title	標題	标题
-owoh_remider_tuesday	Tuesday	星期二	星期二
-owoh_remider_wedday	Wednesday	星期三	星期三
-owoh_remind_count	Recorded	已記錄提醒	已记录提醒
-owoh_remind_tip	Remind	預約提醒	预约提醒
-owoh_search_circle	Hashtag	話題	话题
-owoh_search_result	Result	相關結果	相关结果
-owoh_search_result_count	All %	共%項	共%项
-owoh_search_user	User	用戶	用户
-personal_details	Archives of others	他人檔案	他人档案
-pet_clothes	Pet's Outfits	寵物衣服	宠物衣服
+participating_users	Participating users	參與用戶	参与用户
+pet_like_rate	%1%sfriends like it	%1$s的朋友喜歡	%1$s的朋友喜欢
+pet_match_chat_name	Your pet has been paired with %1$s	你的寵物已與%1$s配對	你的宠物已与%1$s配对
+pet_match_click_img_for_detail	Click on the image for details	點擊圖片查看詳情	点击图片查看详情
+pet_match_join_my_new_matchs	Join my new match	加入我的新配對	加入我的新配对
+pet_matching	Pet Matching	寵物配對	宠物配对
+pet_matching_type	What kind of pets are paired?	我的寵物種類是？	我的宠物种类是？
+pet_pregnancy_history	Pregnancy History：	孕史：	孕史：
+pet_profile_add	Add Pet's Info	新增寵物資料	新增宠物资料
 pet_profile_age	Aged	歲	岁
 pet_profile_blank	Blank profile	主人忘填喔	主人忘填咯
-pet_profile_china	China	國内	国内
+pet_profile_china	China	國內	国内
 pet_profile_edit	Edit Pet's Info	編輯寵物資料	编辑宠物资料
-pet_profile_edit_birth_control	Birth Control	絕育	节育
-pet_profile_edit_disinsection	Last Deworm Time	上次杜蟲時間	上次除虫时间
-pet_profile_edit_feeling	Edit Pet's Mood	點擊输入竉物心情	点击输入宠物心情
-pet_profile_edit_mode	Pet's Feeling	寵物心情	宠物心情
+pet_profile_edit_birth_control	Spayed or Neutered：	絕育：	绝育：
+pet_profile_edit_disinsection	Deworm Time：	杜蟲時間：	除虫时间：
 pet_profile_edit_set_type	Choose Breed	點擊設置種類	点击设置种类
-pet_profile_edit_vaccine	Last Injection Time	上次疫苗时间	上次疫苗时间
-pet_profile_history	History	成長記錄	成长记录
+pet_profile_edit_vaccine	Injection Time：	疫苗時間：	疫苗时间：
 pet_profile_international	International	國際	国外
-pet_profile_save	Save Profile	保存資料	保存资料
 pet_profile_type_by_image1	Your pet is	你的寵物是	你的宠物是
 pet_profile_type_by_image2	,am I correct?	，是否正確？	，是否正确？
-pet_profile_variety	Breed	品種	品种
-pet_profile_weight	Weight	體重	体重
+pet_profile_variety	Breed：	品種：	品种：
+pet_profile_weight	Weight(kg)：	體重(kg)：	体重(kg)：
+pet_species	Pet species	寵物品種	宠物品种
+pet_species_	Pet species：	寵物品種：	宠物品种：
+phone_code	Verification code	驗證碼	验证码
 phone_not_be_used	This phone number hasn't been used	該手機號碼還未註冊過，點擊 <u><b>立即註冊</b></u>	该手机号码还未注册过，点击 <u><b>立即注册</b></u>
-play	Play	遊玩	游玩
-please_input_regular_phone	please input regular phone	請輸入正確的手機號碼	请输入正确格式的手机号
+please_fill_code	Please Fill Code	請填寫驗證碼	请填写验证码
 please_input_the_same_phone	please input the same phone number	請輸入與綁定手機號一致的號碼	请输入与绑定手机号一致的号码
 please_select_personal_clothes	Choose clothes for yourself	請選擇用戶衣服	请选择用户衣服
 please_select_pet_type	Please choose which kinds of pet you have	請先選擇寵物種類	请先选择宠物种类
-please_try_again	please try later	請稍後重試	请稍后重试
+please_upload_pet_photo	Please upload at least one picture of your baby	請至少上傳一張你家寶貝的照片	请至少上传一张你家宝贝的照片
+post	Post	帖文	帖子
+post_with_pets	Post with pets	以寵物發帖	以宠物发帖
 prev	<![CDATA[<]]>	<![CDATA[<]]>	<![CDATA[<]]>
+preview_event	Preview activity	預覽活動	预览活动
 privacy_policy	Privacy Policy	隱私政策	隐私政策
 profile_cancel_follow	Unfollow	取消追蹤	取消关注
-profile_follow_title	Followed	已追蹤	已关注
 profile_go_chatnow	Chat Now	馬上聊天	马上聊天
 profile_go_creatpost	Creat Post Now	馬上發佈	马上发布
-profile_my_clothes	My Oufits	我的衣服	我的衣服
 profile_nofans_other	Huh？Hello? Anyone here?	居然還沒有任何的\n粉絲	她居然还沒有任何的\n粉丝耶
-profile_nofans_self	Huh? You still not have any fans? Post something to attract them.	咦？你還沒有粉絲喔\n要不要發個文\n來吸引下新的粉絲？	咦？你还没有粉丝哦\n要不要发布个新贴子\n来吸引下新的粉丝？
-profile_nofollow_other	No Followings	她居然還沒有對\n任何人感興趣	她居然还沒有对\n任何人感兴趣
+profile_nofans_self	Huh? You still not have any fans? \n Post something to attract them.	咦？你還沒有粉絲喔\n要不要發個文\n來吸引下新的粉絲？	咦？你还没有粉丝哦\n要不要发布个新贴子\n来吸引下新的粉丝？
+profile_nofollow_other	No Followings	Ta居然還沒有對\n任何人感興趣	Ta居然还沒有对\n任何人感兴趣
 profile_nofollow_self	Follow Someone	你居然還沒有對\n任何人感興趣	你居然还沒有对\n任何人感兴趣
-profile_pet_letsplay	Let's\nplay	給牠\n玩玩	给它\n玩玩
 profile_region_china	Change to China version	切換至國內版本	切换至国内版本
 profile_region_international	Change to International version	切換至國際版本	切换至国际版本
 profile_setting_birthday	Choose Birthday	點擊設置日期	点击设置日期
 profile_suggest_self	Suggest For You	為您推薦	为您推荐
-profile_unfollow_title	Not Followed	未追蹤	未关注
 profile_unlogin_title	I have no idea what you posted before.\nYou haven't login yet.	未登錄...\n不知道你發過什麼呢	没登录...\n我可不知道你发过啥
 psw_must_be_the_same	Password has to be the same	密碼必須相同	密码必须相同
-publish_friend	@ Friends	@ 好友	@ 好友
 publish_hashtag	# Hashtag	# 話題	# 话题
+raise_to_ta	Start Chat	快去撩Ta	快去撩Ta
+re_send_failed	Re-send failed	轉發失敗	转发失败
+re_send_suc	Re-sended	轉發成功	转发成功
 read_failed	Access failure	讀取數據失敗	读取数据失败
+read_finish_tip	Don't worry, master. \nToday we can only read %1$d items	主人別著急，\n今天只能看%1$d條	主人别着急，\n今天只能看%1$d条
 recall_faied	Can't delete message	刪除訊息失敗	撤回消息失败
 recall_suc	Deleted message Susscefully	已成功刪除訊息	已成功撤回消息
 received_failed	Received date failure	數據獲取失敗	数据获取失败
-records	Total .. record	共%1$d條記錄	共%1$d条记录
+recommend_users	Suggested User	推薦用戶	推荐用户
+reconnect	Reconnect	重新連接	重新连接
 record_error	Can't record, Please try again	未能錄制語音，請重試	未能录制语音，请重试
 record_error_1	Recording limited to 1 mintues only	每段語音最長限制為1分鐘	每段语音最长限制为1分钟
-refresh_suc	Refreshed	重新載入	刷新成功
+records	Total .. record	共%1$d條記錄	共%1$d条记录
 register_confirm_pw	Confirm Password	確認密碼	确认密码
 register_error_email_format	Wrong email format	請輸入正確電郵地址	邮箱有误
 register_error_empty_field	Please fill in all the required fields	所有空格必須填寫	须填所有空格
-register_phone	Phone no	電話號碼	手机号
-register_phone_area_code_select	Please select the area code:	請選擇區號:	请选择区号:
+register_phone	Phone Number	手機號	手机号
 register_success	Registration completed	註冊完成	注册完成
 register_success_welcome_1	Welcome to OwOh world!	歡迎來到OwOh寵物世界！	欢迎来到OwOh宠物世界！
 register_tnc	By clicking "Register", you agree to our terms, data processing policy and Cookie policy. You may receive our SMS notifications, which you may choose to opt out from it any time.	點擊「註冊」即表示同意我們的使用條款及數據使用政策。你可能會收到我們的電郵通知，而且可以隨時選擇停止接收。	点击「注册」代表您同意我们的使用条款和数据使用政策。您或会收到我们的电子邮件，而且可以随时选择停止接收。
 related_user	Related user	相關用戶	相关用户
 releasetocancel	Release to cancel	鬆開手指取消傳送	松开手指取消发送
 releasetosend	Release to send	鬆開傳送	松开发送
-remaining_time	count down :	剩餘時間 :	剩余时间
+remind_users	Remind users	添加好友	添加好友
 removed_from_group	you have been removed	被管理員請出群組	被管理员请出群聊
 removed_from_group_al	You have been removed	您已被移除群組	您已被请出群聊
+report	Report	舉報	举报
 report_failed	Report unsuccessfully	舉報失敗	举报失败
 report_post	Report this post?	確定舉報貼文？	您确定要举报这条贴子吗
 report_suc	Report successfully	舉報成功	举报成功
+reported_pet_id_cannot_be_empty	Reported pet ID cannot be empty	舉報的寵物ID不能為空	举报的宠物ID不能为空
 results	Results	條結果	条结果
+retract	Retract	收起	收起
 revised_psw_has_been_sent_to_you	Revised password has been sent to your phone	重設密碼短訊已發送到你的手機	重设密码短信已发送到你的手机
-re_send_failed	Re-send failed	轉發失敗	转发失败
-re_send_suc	Re-sended	轉發成功	转发成功
-sce_before	Seconds before	秒前	秒前
+s_e_time_error2	EndTime can‘t be less than currentTime	結束時間不可小於當前時間	结束时间不得小于当前时间
+s_e_time_error3	開始時間不得小於結束時間	開始時間不得小於結束時間	开始时间不得小于结束时间
+s_e_time_error5	StartTime can‘t be less than endTime	請填入開始時間和結束時間	请填入开始时间和结束时间
+s_e_time_error6	Time can‘t be less than currentTime	設置時間不得小於當前時間	设置时间不得小于当前时间
+saturday	Saturday	週六	周六
+save_changed_profile	Are you sure to save changed profile?	資料有修改是否保存資料	资料有修改是否保存资料
+save_to_album	Save Photo	保存到相冊	保存到相冊
+say_hello	Say hi~	打招呼	打招呼
+sce_before	s	秒前	秒前
 screening	Screening	入群審核	入群审核
+search_event	Event	精彩活動	精彩活动
 search_hash_tag	search topic	尋找話題...	搜索话题…
-search_item	Search	搜尋...	搜索
+search_hashtag	HashTag	精彩話題	精彩话题
+search_load_empty	Not found on this planet	在這個星球中找不到	在这个星球中找不到
+search_load_error	Network is not available \n please check network settings	網絡不可用，請檢查網絡設置	网络不可用，请检查网络设置
+search_record	Search Record	搜索記錄	搜索记录
 search_result_count	results	個結果	个结果
 search_result_item	Search result	搜尋結果	搜索结果
-sec	Second	秒	秒
 see_all_members	See all the members	查看全部群成員信息	查看全部群成员
 select_error	Can't choose more than 10 people	單次選擇不能超過10人	单次选择不能超过10人
+select_event_group	Choose activity groupChat	選擇活動群聊	选择活动群聊
+select_event_topic	Select event topic	選擇活動話題	选择活动话题
+select_image_max	Select up to %1$d image	最多選擇%1$d張圖片	最多选择%1$d张图片
 send	Sent	已傳送	发送
+send_again	Send again	再次發送	再次发送
+send_code_title	Verification code send	驗證碼已發送到手機號	验证码已发送到手机号
+send_event	Send Activity	發佈活動	发布活动
 send_failed	Publishing failed	發佈失敗	發布失敗
+send_msg	Send message	發訊息	聊天
 send_suc	Post successfully	發佈成功	发布成功
 send_success	send success	發送成功	发送成功
-setting_agreement_title	Service Agreement	用戶協議	用户协议
+set_failed	Set failed	設定失敗	设置失败
+set_private	Set private	設定私密	设置私密
+set_public	Set public	設定公開	设置公开
+set_successfully	Set successfully	設定成功	设置成功
+setting_acc	Account Settings	賬戶設置	账户设置
 setting_bind_email	Bind email	綁定郵箱	绑定邮箱
 setting_bind_email_enter	Enter email	請輸入郵箱	请输入邮箱
 setting_bind_email_error	Email error	兩次郵箱輸入不符	两次邮箱输入不符
 setting_bind_email_reenter	Reenter email	請再次輸入郵箱	请再次输入邮箱
-setting_bind_phone	Enter phone number	請輸入手機號	请输入手机号
 setting_change_pw	Change password	更改密碼	修改密码
 setting_check_update_fail	Check for update failed, please try again	檢查更新失敗，請重試	检查更新失败，请重试
-setting_check_update_unchange	Already the latest version!	已经是最新的版本啦！	已经是最新的版本啦！
+setting_check_update_unchange	Already the latest version!	已經是最新的版本啦！	已经是最新的版本啦！
 setting_clear_cache	Clear cache	清除緩存	清除缓存
 setting_feedback_content	Write your comment	請寫出您對我們的想法	请写出您对我们的想法
 setting_feedback_thanks	Thank you for your feedback	非常感謝您對我們提出寶貴意見：	非常感谢您对我们提出宝贵意见：
-setting_feedback_title	Feedback	意見反饋	意見反馈
 setting_language	Language setting	語言設置	语言设置
-setting_notification	Notification	通知	通知
+setting_msg	Message Settings	消息設置	消息设置
+setting_notification	Notice	通知	通知
 setting_phonebind_phone	Phone bound	綁定手機號	绑定手机号
-setting_phonebound_fullphonenum	Enter full phone number	請輸入完整的手機號碼	请输入完整的手机号
-setting_phonebound_newphonenum	Enter new phone number	請輸入新手機號碼	请输入新手机号
 setting_phonebound_phone	Phone bounded	已綁定手機號	已绑定手机号
 setting_push	Notification	消息提示	消息推送
 setting_push_sound	Sound	提示音	提示音
 setting_push_vibration	Vibration	震動	震动
-setting_uploadimage	Related images (Unneccessary)	相關截圖(非必需)	相关截图(非必需)
+setting_sys	System Settings	系統設置	系统设置
+setting_uploadimage	Related images	相關截圖	相关截图
+share	Share To	分享到	分享到
+share_content_common_event_tip	OwOh Surprises Life	OwOh給生活一點驚喜	OwOh给生活一点惊喜
+share_content_common_post_tip	Hey.. This post is very interesting..	這裡有個有趣的貼文，快過來圍觀	这里有个有趣的贴文，快过来围观
+share_content_not_empty	Sharing content can't be empty	分享內容不能為空	分享内容不能为空
+share_image_not_empty	Sharing image can't be empty	分享图片不能為空	分享图片不能为空
+share_copy_link_success	Copy the link successfully	複製鏈接成功	复制链接成功
+share_copylinks	CopyLinks	複製鏈接	复制链接
+share_facebook	Facebook	Facebook	Facebook
+share_generateposters	GeneratePosters	生成海報	生成海报
+share_have_not_been_installed	have not been installed	未安裝	未安装
+share_image_compression_fail	Shared image compression failed, please share again!	分享的圖片壓縮失敗，請重新分享！	分享的图片压缩失败，请重新分享!
+share_in_station_forwarding	In station forwarding	站內轉發	站内转发
+share_instagram	Instagram	Instagram	Instagram
+share_loading_data_tip	Sharing data is being obtained, please wait !	正在獲取分享數據，請稍等！	正在获取分享数据，请稍等!
+share_messenger	Messenger	Messenger	Messenger
+share_owohpetfriend	OwohPetFriend	Owoh寵友	Owoh宠友
+share_pet_type_cannot	The current pet breed is under construction	當前寵物品種正在建設中	当前宠物品种正在建设中
+share_poster_url_cannot_be_null	Sharing poster URL address cannot be empty	分享海報url地址不能為空	分享海报url地址不能为空
+share_qq	QQ	QQ	QQ
+share_qzone	QZone	QQ空間	QQ空间
+share_sinaweibo	SinaWeibo	微博	微博
+share_telegram	Telegram	Telegram	Telegram
+share_to_more_tip	Share it to you friends and get more matching chances~	分享相親卡給你的朋友互動\n 可以新增配對次數哦～	分享相亲卡给你的朋友互动\n 可以增加配对次数哦～
+share_twitter	Twitter	Twitter	Twitter
+share_wechat	Wechat	微信	微信
+share_wechat_applet	Miniprogram	微信小程式	微信小程序
+share_wechat_poster	Wechat poster	微信海報	微信海报
+share_wechatmoments	Moments	朋友圈	朋友圈
+share_wechatmoments_poster	Moments poster	朋友圈海報	朋友圈海报
+share_whatsapp	WhatsApp	WhatsApp	WhatsApp
+single_type_choose	Cannot select images and videos at the same time	不能同時選擇圖片與視頻	不能同时选择图片与视频
 slideuptocancel	Slide up to cancel	手指向上滑取消傳送	手指上划取消发送
 social_comment	Comment	留言	留言
 social_comment_placeholder	What's on your mind?	你在想什麼？	您在想什么？
-social_create_camera	Camera	相機	相机
 social_create_post	Publish	發佈	发布
+social_create_post_add_topic_repeat	You have added this topic	你已添加該話題	你已添加此话题
 social_create_post_error_no_attachment	Please attach at least one photo or video	請加入最少一張圖片或影片	请添加最少一张图片或视频
-social_create_post_title	Create Post	文章發佈	文章发布
 social_group	Group	圈子	圈子
+social_home_page	Community	社區	社区
 social_live	Status	動態	动态
+social_mine	My Profile	我的檔案	我的档案
 social_more	More	更多	更多
-social_official	Check-in	通知	通知
+social_post_ad_match	Enter O-Cupid	進入喔比特	进入喔比特
 social_reminder	Reminder	提醒	提醒
-social_reply_comment	Comment	留言...	留言...
-social_share	Share	分享	转发
+social_share	Share	分享	分享
+social_shop_mall	Mall	商城	商城
 square	Square	正方形	正方形
+start_time	Start time	開始時間	开始时间
+start_time_	Start time：	開始時間	开始时间：
+sterilization	Sterilization：	絕育：	绝育：
+sterilized	Neutered	已絕育	已绝育
 sticker_create_fail	Create new sticker failed	未能新增貼圖	未能新增贴图
 sticker_create_limit	30 stickers maximum	最多 30 張貼圖	最多 30 张贴图
 sticker_create_pack_fail	Create new sticker package failed	未能新增貼圖包	未能新增贴图包
 sticker_header_detail	Sticker Package	貼圖包	贴图包
+str_month	%s Month	%s月	%s月
+successful_matching	Match!!	成功配對	成功配对
+sunday	Sunday	週日	周日
+sure_send	Confirm to send	確認發佈	确认发布
 tab_bar_item_4	Chat	聊天	聊天
 tab_bar_item_extra_1	Sticker widget	貼圖製作	贴图生成
-teaching_page_title	How To Use	新手教學	新手教学
-terms_conditions	Terms and Conditions	用戶協議	用户协议
+text_length_limit_warning	Over 500 words	超過500字	超过500字
+thursday	Thursday	週四	周四
 time_now	Just now	剛剛	刚刚
-time_yesterday	Yesterday	昨天	昨天
-total0	Total 0 Results	共0條結果	共0条结果
-total2	Total %1$d results	共%1$d結果	共%1$d結果
-total_pic	Related images	共%1$d張	共%1$d张
-to_be_continued	To be continued	待續	以后再说
-train	Train	訓練	训练
+tip_circle	The dynamics you care about will appear here.\nRecommended some interesting people for you\nPay attention to them~	你關注人的動態會出現在這裏\n爲你推薦了一些有趣的人\n快關注TA們吧~	你关注人的动态会出现在这里\n为你推荐了一些有趣的人\n快关注TA们吧～
+title_cant_null	Title not be null	標題不可為空	标题不可为空
+to_be_audited	Auditing	稽核中	审核中
+to_better_recommend_pets	To better recommend pets	為了更好的推薦寵物	为了更好的推荐宠物
+topic	Topic	話題	话题
+topic_i_join	My Join Topics	我參與的話題	我参与的话题
+total_people	Total%1$dpeople	共%1$d人	共%1$d人
+tuesday	Tuesday	週二	周二
 turn_on_flash	Trun on flash	請切換為後置鏡頭並開啟閃光燈	请切换为后置摄像头开启闪光灯
-turn_on_save_setting	Turn on save setting	你先前已在"OwOh"上停用相機及存儲權限。若要啟用此功能，請點擊下面"應用程序設置"啟用"權限"	你先前已在"OwOh"上停用相机及存储权限。若要启用此功能，请点击下面"应用程序设置"启用"权限"
 turn_on_volume	Please turn on volume	請打開鈴聲	请打开铃声
-unit_kg	(kg)	(kg)	(kg)
-unit_pic	pics	張	張
+unit_pic	pics	張	张
+unlocking_matching_function	Unlock your pet matching now!	解鎖配對功能	解锁配对功能
+unsterilized	Unneutered	未絕育	未绝育
+unverified	(Unverified)	(未認證)	(未认证)
 update_phone	update phone	修改手機號	修改手机号
+upload_cover	Upload cover	上傳封面	上传封面
 upload_failed	Failed to upload	上傳失敗	上传失败
 upload_head_failed	Failed to upload image	上傳頭像失敗！	上传头像失败！
+user_agreement	Service Agreement	用戶協議	用户协议
 user_name_not_null_tip	name must not be empty	用戶名不能為空	用户名不能为空
 user_not_binding_phone	You have not bounded your phone number yet.	你暫未綁定手機號，請先綁定	你暂未绑定手机号,请先绑定
 user_not_login	user not login,please login first	用戶暫未登錄，請先登錄	用户暂未登录,请先登录
-user_profile_bron_place	Birth Place	出生地點	出生地点︰
-user_profile_edit_about	Edit about	編輯個性簽名	编辑个性签名
-user_profile_edit_confirm_new_pw	Confirm New Password	確認新密碼	确认新密码
+user_profile_blank	Blank profile	用户忘填喔	用户忘填咯
+user_profile_bron_place	Region	地區：	地区：
 user_profile_edit_info	Edit info	編輯個人資料	编辑个人资料
 user_profile_edit_new_pw	New Password	新密碼	新密码
 user_profile_fans	Fans	粉絲	粉丝
 user_profile_follow	Follow	追蹤	关注
 user_profile_image_1	Related images	相關照片	相关照片
-user_profile_image_2	Profile pictures	張	张
 user_profile_press_enter	Enter a nickname	點擊輸入暱稱	点击输入昵称
 user_profile_set_region	Set Region	點擊設置地區	点击设置地区
-user_profile_sex	Gender	性別	性别︰
-vaccine	Vaccinate	注射疫苗	打疫苗
-vcode_tips1	Repeatable after %1$d seconds	%1$d秒後可重複	%1$d秒后可重复
+user_profile_sex	Gender：	性別：	性别：
 vcode_wrong	verification code is wrong	驗證碼錯誤	验证码错误
-verification_code_enter	Enter your verification code	請輸入短訊驗證碼	请输入短信验证码
-verification_code_request	Get verification code	獲取驗證碼	获取验证码
+ver_info	Version Information	版本信息	版本信息
+verification_code_enter	please enter	請輸入短訊驗證碼	请输入短信验证码
+verification_code_request	Get SMS	獲取驗證碼	获取验证码
 verification_resend	Resend	重發	重发
 verification_resend_count	second(s) to resend	秒後重發	秒后重发
 verification_subtitle	Verification code sent to your phone	驗證碼已發送到你的手機	我们已发送验证码到您的手机
 verification_title	Verification	身份認證	身份认证
-version_check_force_msg	To keep using Owoh, please download the latest version	版本太舊，請下載最新版本	版本太低，请下载最新版本
 version_check_force_no	Quit Owoh	離開 Owoh	退出 OwOh
-version_check_force_title	Update available	新版本可供下載	发现新版本
-version_check_force_yes	Update now	現在更新	现在更新
-version_check_soft_msg	Owoh recommends you to update	建議更新至最新版本	建议您更新到最新版本
-version_check_soft_no	Later	知道了	我知道了
 version_check_soft_title	New version available	發現新版本	发现新版本
-version_check_soft_yes	Update now	現在更新	现在更新
+video_cancel_title	Cancel	取消	取消
+video_delete_title	Confirm to delete the previous O! video?	確認刪除上一段短片？	确定删除上一段视频？
+video_error1	Video compression failed, Please try again later	視頻壓縮失敗，請稍後再試	视频压缩失败，请稍后再试
 video_exit_title	Exit	離開	退出
+video_flash_button	Flash	閃光	闪光
 video_limit1	Video recording can't be less than 3s	視頻長度不可少於3秒	视频时长不可少于3秒
+video_record_shot	O! Video too short. Please record again	影片時間過短，重新再拍過吧	视频太短啦,再拍一段吧
+video_replay_back	O! Video will not be saved on clicking back, continue?	按返回後短片將不會儲存，確定返回？	退出后将不会保存，是否退出？
 video_skip_title	Skip	略過	跳过
+video_sure_title	Yes	確定	确定
+video_switch_button	Switch	切換	翻转
+video_tooshort_title	O! Video too short. Please record again	影片太短，重拍吧	视频太短了,再拍一段吧
 video_upload_faild	Failed to Upload. Plesase check your connection	上傳失敗，請檢查網絡	上传失败,请检查网络
 video_upload_success	Upload success	上傳成功	上传成功
-whatsticker_already_copy	Link copied	已複製連結	已复制链接
+wechat_install_warning	You have to install Wechat app first	你必須先安裝微信應用程式	你必须先安装微信应用程式
+wednesday	Wednesday	週三	周三
 whatsticker_approval	Publish	公開上架	公开上架
 whatsticker_approval_desc	Submit your sticker pack for approval	通過審批後，即可公開分享你的貼圖	通过审批后，可公开分享你的贴图
 whatsticker_author	Author	作者	作者
@@ -490,7 +685,6 @@ whatsticker_create_pack_remind	By clicking "Create", no further amendment is all
 whatsticker_create_title	Add Sticker Package	新增貼圖包	新增贴图包
 whatsticker_delete_min_3	3 stickers minimum	最少 3 張貼圖	最少 3 张贴图
 whatsticker_delete_sticker	Delete Stickers	刪除貼圖	刪除贴图
-whatsticker_masking_tab_2	Frame	邊框	边框
 whatsticker_masking_tab_3	Eraser	檫膠	擦除
 whatsticker_masking_tab_4	Undo	復原	复原
 whatsticker_name	Package Name	貼圖包名稱	贴图包名称
@@ -499,45 +693,206 @@ whatsticker_share_message	Download link\n	下載連結\n	下载链接\n
 whatsticker_share_min_3	Share 3 stickers or more	最少分享 3 張貼圖	最少分享 3 张贴图
 whatsticker_share_to_wall	Share as an Owoh post	分享至 Owoh 帖文	转发到 OwOh 帖子
 whatsticker_upload_thumnail	Upload Package Cover Image	上載封面圖	上传封面图
-years_before	Years before	年前	年前
-you	You	你	你
-ypimagepickercrop	Crop	裁剪	剪切
-ypimagepickernext	Next	下一步	下一步
-ypimagepickerphoto	Photo	拍照	拍照
-ypimagepickersave	Save	儲存	保存
-ypimagepickervideo	Video	影片	视频
-delete_pet_confirm_tip	Are you sure to delete your pet files?	確認刪除寵物的檔案嗎？	确定删除宠物的档案吗？
-like_comment_num	%1$d likes·%2$d comments	%1$d人點贊·%2$d條評論	%1$d人点赞·%2$d条评论
-save_changed_profile	Are you sure to save changed profile?	資料有修改是否保存資料	资料有修改是否保存资料
-join_hash_tag	Join Topic	參與話題	参与话题
-dot	%1$sfans,%2$sposts	%1$s粉絲，%2$s帖文	%1$s粉丝，%2$s帖子
-ACHIEVEMENT_PET_CLOTH	Pet outfits	寵物衣服	宠物衣服
-CAMERA_SAVE	Save and publish	儲存	保存
-ACHIEVEMENT_TYPE_COMMENT	My Achievement	我的成就	我的成就
-ACHIEVEMENT_CURRENT_LV	Current LV	當前等級	当前等级
-ACHIEVEMENT_UNLOCKED_TITLE	Unlocked prizes	已獲得的獎勵	已获得的奖励
-ACHIEVEMENT_VIEW_PRODUCT	View prizes	查看戰利品	查看战利品
-ACHIEVEMENT_MY_PRODUCT	My prizes	我的戰利品	我的战利品
-ALL	All	全部	全部
-ACHIEVEMENT_CLOTHES_TYPE_ALL	All	全部	全部
-ACHIEVEMENT_CLOTHES_TYPE_PERSON	Personal	主人	主人
-ACHIEVEMENT_CLOTHES_TYPE_PET	Pet	寵物	宠物
-CAMERA_CREATE_POST	Save and publish	儲存並發佈	存储和发布
-ACHIEVEMENT_PROG_FINISH	Finished	已達成	已完成
-CAMERA_FILTER	Filter	濾鏡	滤镜
-camera_enter_text	type what you want to add	輸入您想要加入的文字	输入您想要加入的文字
-ACHIEVEMENT_TYPE_OTHER	's Achievement	的成就	的成就
-AND	and	和	和
-add_fail	add failed	添加失敗	添加失败
-binding_fail	binding failed	綁定失敗	绑定失败
-before	Before	前	前
-add_success	add success	添加成功	添加成功
-binding_success	binding sucess	綁定成功	绑定成功
-AGE_MONTH	 months	個月	个月
-no_hash_tag_u_want	No suggested topic found?	沒有想參與的話題？	没有想参与的话题？
-create_new_hash_tag	Create your own topic	創建新話題:	创建新话题:
-group_chat_exit_alert	Are you sure to exit the current group?	是否確定退出當前群組	是否确定退出当前群组
+whole_country	All City	全國	全国
 wrong_phone	Wrong phone number	電話號碼錯誤	电话号码错误
-DATE_IS_MORE_THAN_TODAY	Please choose a date less than today	請選擇不能大於今天的日期！	请选择不能大于今天的日期
-start_time_earlier_than_end_time	Start date must earlier than End date	結束時間不能早於開始時間！	结束时间不能早于开始时间 ！
-retract	Retract	收起	收起
+year_short	Y	年	年
+years_before	y	年前	年前
+you	You	你	你
+you_like_each_other	You like each other!	你們互相喜歡了！	你们互相喜欢了！
+ypimagepickercrop	Crop	裁剪	剪切
+ypimagepickerphoto	Photo	拍照	拍照
+--------album_class	All	全部	全部
+--------album_class	Album	相册 	相册 
+--------album_class	Video	視頻	视频
+--------circle_list	HashTag	話題	话题
+--------circle_list	Activity	活動	活动
+--------circle_list	My	我的	我的
+--------fans_follows_list	Fans	粉絲	粉丝
+--------fans_follows_list	Follow	追蹤	关注
+--------filters	Original	原始	原始
+--------filters	Soft	軟化	软化
+--------filters	B/W	黑白	黑白
+--------filters	Classic	經典	经典
+--------filters	Glamorous	華麗	华丽
+--------filters	Lomo	復古	复古
+--------filters	Elegent	優雅	优雅
+--------filters	Movie	電影	电影
+--------filters	Memory	回憶	回忆
+--------filters	Yogurt	乳酪	优格
+--------filters	Year	流年	流年
+--------filters	Shine	發光	发光
+--------filters	Mosaic	馬賽克	马赛克
+--------group_edit_image	Clip	剪輯	剪辑
+--------group_edit_image	Characters	文字	文字
+--------group_edit_image	Filter	濾鏡	滤镜
+--------group_edit_image	Sticker	貼圖	贴图
+--------group_edit_image	Background	背景	背景
+--------group_edit_image	Erase	擦除	擦除
+--------group_tabs	Hot	熱門	热门
+--------group_tabs	New	最新	最新
+--------my_post_list	My	我的	我的
+--------my_post_list	Like	喜歡	喜欢
+--------other_post_list	Ta的	Ta的	Ta的
+--------other_post_list	Like	喜歡	喜欢
+--------search_list	User	用戶	用户
+--------search_list	Topic	話題	话题
+--------search_tab	Post	帖文	帖子
+--------search_tab	Activity	活動	活动
+--------search_tab	User	用戶	用户
+--------search_tab	Group	圈子	圈子
+str_subscribe	Subscribe	訂閱消息	订阅消息
+matching_title	O-Cupid	喔比特	喔比特
+matching_hint_limit	Out of likes! Today can only check %1$d pets	主人別著急，今天只能看%1$d條	主人别着急，今天只能看%1$d条
+matching_hint_limit2	Out of likes! \nToday can only check  %1$d pets	主人別著急，\n今天只能看%1$d條	主人别着急，\n今天只能看%1$d条
+matching_hint_limit3	Today can only check  %1$d pets	今天的%1$d條訊息已經看完	今天的%1$d条讯息已经看完
+nearby_notify	You have %1$s events nearby	您的附近有%1$d條新動態	您的附近有%1$d条新动态
+MATCHING_HINT_ADD	Add pets to view more cuties	添加寵物可以查看更多萌寵	添加宠物可以查看更多萌宠
+MATCHING_HINT_SUPPLEMENT	Unlock now！ more precise, more fun	補充配對信息，解鎖配對	补充配对信息，解锁配对
+ALL_NEARBY_USER	Look all your favorite friends	查看全部寵友	查看全部宠友
+PET_BREED	Pet type	寵物品種	宠物品种
+SORT	Sort by	排序	排序
+MALE	Male	男	男
+FEMALE	Female	女	女
+DOG_CUTE	doggy	狗狗	狗狗
+CAT_CUTE	Cats	貓貓	猫猫
+RABBIT	Rabbit	兔子	兔子
+LAST_ONLINE_DATE	Last online time	最近上線	最近上线
+home	home	首頁	首页
+msg	message	訊息	消息
+serch_	search..	搜尋...	搜索...
+journal_details	Journal Details	日誌詳情	日志详情
+comment	comment	評論	评论
+album_empty_video	No video	暫無視頻 	暂无视频
+album_empty_all	Post your first log	發佈你的第一條日誌 	发布你的第一条日志
+post_log	Post log	發佈日誌 	发布日志 
+save_image_success	Save image success	保存圖片成功	保存图片成功
+save_image_fail	Save image fail	保存圖片失败	保存图片失败
+album_empty_image	No photo	暫無相册	暂无相册 
+jurisdiction_open	public	公開	公开
+jurisdiction_close	private	私有	私有
+group_alum	Group album 	群相册 	群相册
+album_empty_other	This person is a bit lazy\ndidn't post anything	Ta有點懶\n什麼都沒發佈哦 	Ta有点懒\n什么都没发布哦 
+load_faild_post	This post failed to load or does not exist	 該貼文獲取失敗或不存在	该贴文获取失败或不存在
+save	Save 	儲存	保存
+disbanded_group	Disbanded group	解散群組 	解散群组
+tip_disbanded_group	Are you sure to dissolve the group	是否確定解散群組 	是否确定解散群组
+other_like_empty	This person is very cold\nand doesn't like any posts 	Ta很高冷\n沒任何喜歡的貼文	Ta很高冷\n没任何喜欢的贴文
+disbanded_group_fail 	Failed to disband group	解散群組失敗	解散群组失败
+disbanded_group_ok 	Group disbanded successfully	解散群組成功	解散群组成功
+OWOH_SAMECITY_HASHSQUARE	Topic square	話題廣場	话题广场
+OWOH_GROUP_ISJOIN	involved	已參與	已参与
+OWOH_HOME_HOT_PRODUCT	Hot sale	熱賣商品	热卖商品
+OWOH_SAMECITY_MYACTIVITY	My Event	我的活動	我的活动
+OWOH_SAMECITY_JOINACTIVITY	Join	參與	参与
+OWOH_SELECT_CITY_CURRENT	Current	當前選擇	当前选择
+OWOH_SELECT_CITY_LOCATION_HISTORY	Location / History visit	定位/歷史訪問	定位/历史访问
+OWOH_SELECT_CITY_HOT	#Hot	#熱門城市	#热门城市
+see_more	click to see more	點擊產看更多	点击查看更多
+PUSH_CHOSE_ROLE	Choose a publishing role	選擇發布角色	选择发布角色
+my_album	My album	我的相册 	我的相册
+who_album	%s's album	%s的相册 	%s的相册
+ssl_ask	SSL authentication failed. Do you want to continue?	SSL認證失敗，是否繼續訪問？	SSL认证失败，是否继续访问？
+like_tip1	like	讚好	点赞
+like_tip2	with %1$d people like	和%1$d人讚好	和%1$d人点赞
+edit_group_name	Edit group name	編輯群名稱	编辑群名称
+edit_group_profile	Edit group profile	編輯群簡介 	编辑群简介
+edit_group_announce	Edit group announcement 	編輯群公告 	编辑群公告
+edit_about_group	Please write about editing group 	請寫編輯群簡介 	请写编辑群简介 
+eidit_gourp_annou_tip	Please write edit group announcement	請寫編輯群公告	请写编辑群公告
+edit_group_name_tip	Please write and edit group name 	請寫編輯群名稱 	请写编辑群名称
+article_detail	Article detail	文章詳情	文章详情
+HOME_PETNEWS	Pet Info	寵物資訊	宠物资讯
+home_page0	Home	首頁	首页
+home_page1	Mall	商城	商城
+home_page2	Msg	訊息	消息
+home_page3	My	我的	我的
+hide	hide	隱藏	隐藏
+show	show	顯示	显示
+no_new_friends	No new friends	暫無新朋友	暂无新的朋友
+new_friends	New friends	新的朋友	新的朋友
+read_all_faild	Read all failures	已讀所有失敗	已读所有失败
+guide_content_first_CN	尋 找 寵 物 樂 園 的 神 器	尋 找 寵 物 樂 園 的 神 器	寻 找 宠 物 乐 园 的 神 器
+guide_content_fourth_CN	低 價 找 到 適 合 愛 寵 的 好 物	低 價 找 到 適 合 愛 寵 的 好 物	低 价 找 到 适 合 爱 宠 的 好 物
+guide_content_second_CN	讓 愛 寵 們 覓 得 良 緣	讓 愛 寵 們 覓 得 良 緣	让 爱 宠 们 觅 得 良 缘
+guide_content_third_CN	有 趣 的 靈 魂 在 這 裡 等 你	有 趣 的 靈 魂 在 這 裡 等 你	有 趣 的 灵 魂 在 这 里 等 你
+guide_title_first_CN	寵 物 社 交	寵 物 社 交	宠 物 社 交
+guide_title_fourth_CN	O ! 商 城	O ! 商 城	O  !  商 城
+guide_title_second_CN	喔 比 特	喔 比 特	喔 比 特
+guide_title_start_CN	開始體驗	開始體驗	开始体验
+guide_title_third_CN	同 城 玩 樂	同 城 玩 樂	同 城 玩 乐
+other_device_login	The user was logged in on other device, do you want to enable the chat?	此用戶有其他手機登錄，需要重開啟用聊天功能嗎？	此用户有其他手机登录，需要重开启用聊天功能吗？
+OWOH_SAMECITY_DISABLED	Active activity has been disabled	當前活動已被禁用	当前活动已被禁用
+official_download	Official download > 	官方下載 >  	官方下载 > 
+share_url_is_empty	Share url can't be empty	分享url連結不能為空	分享url链接不能为空
+share_post_is_private	This post is private, please share it publicly	該貼文為私密狀態，請設為公開後分享	该贴文为私密状态，请设为公开后分享
+set_as_public	Set as public	設為公開	设为公开
+must_agress_tips	Agree to terms, data processing policy and Cookie policy	同意使用條款及數據使用政策	同意使用条款及数据使用政策
+must_agress_warning	You must agree to our terms, data processing policy and Cookie policy	閣下須同意我們的使用條款及數據使用政策	您要同意我们的使用条款和数据使用政策
+click_upload_cover	Click to upload cover	點擊上傳封面	点击上传封面 
+event_info	Event information：	活動信息：	活动信息
+event_title	Event title：	活動標題：	活动标题：
+event_address	Event address：	活動地址：	活动地址：
+event_content	Event content：	活動內容：	活动内容：
+pet_types	Pet types：	寵物種類：	宠物种类：
+num_people	Number of people：	活動人數：	活动人数：
+activity_time	Event time：	活動時間	活动时间
+select_pet_type	Select pet type	選擇寵物種類	选择宠物种类
+to_filled	To be filled	待填寫	待填写
+unlimited_0	0 means unlimited	0表示不限人數	0表示不限人数
+set_event_time	Set event time	設置活動時間	设置活动时间
+input_event_title	Please enter event title	請輸入活動標題	请输入活动标题
+select_region	Select region	選擇地區	选择地区
+already_filled	Already filled	已填寫	已填写
+offline	Offline	線下	线下
+on_line	On-line	線上	线上
+please_select_region	Please select the region	請選擇地區	请选择地区
+event_form	Event form	活動形式	活动形式
+not_save_retrun	Content will not be saved after return	返回後內容將不會保存	返回后内容将不会保存
+return_back 	Quit	返回	返回 
+continue_editing	Continue editing	繼續編輯	继续编辑
+login_by_account	Account or Email Login	賬號或郵箱登錄	账号或邮箱登录
+login_by_otp	Verification code login	驗證碼登錄	验证码登录
+agree_tnc	Agree user agreement and privacy policy	同意用戶協議及隱私政策	同意用户协议及隐私政策
+warning_account	Account / password is wrong, please re-enter	賬號/密碼有誤,請重新輸入	账号/密码有误，请重新输入
+warning_otp	Incorrect verification code, please re-enter	驗證碼有誤,請重新輸入	验证码有误,请重新输入
+hint_login_account	Phone / email	請輸入手機號/郵箱	请输入手机号/邮箱
+set_password	Set password	設置密碼	设置密码
+warning_same_pw	The passwords entered twice are inconsistent	兩次輸入密碼不一致	两次输入密码不一致
+hint_login_otp	Verification code	請輸入驗證碼	请输入验证码
+please_fill_content	Please fill in the content	請填寫內容	请填写内容
+please_fill_title	Please fill in the title	請填寫標題	请填写标题
+please_fill_address	Please fill in the address	請填寫地址	请填写地址
+select_event_type	Select event type	選擇活動種類	选择活动种类
+hint_login_pw	Password	請輸入密碼	请输入密码
+hint_login_phone	Phone	請輸入手機號	请输入手机号
+event_title_	Event title	活動標題	活动标题
+event_address_	Event address	活動地址	活动地址
+select_from_album	Select from album	從相冊中選擇	从相册中选择
+event_cost	Event cost (yuan / person)：	活動費用(元/人)：	活动费用(元/人)：
+event_cost_free	0 means free	0表示免費	0表示免费
+fill_num_people	Please enter the number of people	請輸入活動人數	请输入活动人数
+fill_event_cost	Please enter event cost	請輸入活動費用	请输入活动费用
+select_pet_tip	Please select a pet type	請選擇寵物種類	请选择宠物种类
+please_select_topic	Please select event topic	請選擇活動話題	请选择活动话题
+event_content_	Event content：	活動內容	活动内容
+no_my_event	No any event	沒有發佈任何活動	没有发布任何活动
+warning_enter_complete	Please enter complete information	請輸入完整信息	请输入完整信息
+preview	Preview	預覽	预览
+recomm_for_u	Recommended for you	爲你推薦	为你推荐
+etc2	etc %1$s person	等%1$s人	等%1$s人参与
+join_now	Join now	立即參與	立即参与
+no2	NO.%1$s	NO.%1$s	NO.%1$s
+my_event_tips2	Not join any event	沒有參加任何活動	没有参加任何活动
+tips_del_member	Sure to del them? It's irreversible	確定刪除選中成員嗎？刪除后不可恢復	确定删除选中成员吗？删除后不可恢复
+cancel_event	Event cancel	活動取消	活动取消
+ReEdit	Edit	重新編輯	重新编辑
+Check_reason	Check reason	查看原因	查看原因
+its_event	Ta's event	Ta的活動	Ta的活动
+--------event_detail	event	活動	活动
+--------event_detail	content	內容	内容
+--------event_detail	posts	帖文	帖子
+No_limit	No limit	不限	不限
+cost_per	%1$syuan/person	%1$s元/人	%1$s元/人
+cost_free	￥ free	￥ 免費	￥ 免费
+online_event	Online event	綫上活動	线上活动
+offline_event	Offline event	綫下活動	线下活动
